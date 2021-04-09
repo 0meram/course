@@ -8,6 +8,7 @@ import Services from '../components/services'
 import Footer from '../components/footer'
 import SignIn from '../components/signIn'
 import Pricing from '../components/pricing/pricing'
+import Review from '../components/reviews/review'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -26,7 +27,8 @@ const toggleSideBar = () =>{
             <Info {...homeObjTwo}/> */}
             <Services />
             {/* <Info {...homeObjThree}/> */}
-            <Pricing />
+            {/* <Pricing /> */}
+            <Review />
             <SignIn />
             <Footer />
         </>

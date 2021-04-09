@@ -1,0 +1,12 @@
+
+  article.activeSlide {
+    opacity: 1;
+    transform: translateX();
+  }
+  article.lastSlide {
+    transform: translateX(-60%);
+  }
+  article.nextSlide {
+    transform: translateX(60%);
+  }
+  
