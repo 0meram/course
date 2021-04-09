@@ -3,7 +3,7 @@ import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 
 
 export const ReviewContainer = styled.div`
-
+margin: 0;
 background-color: #fcfcfc;
 @media screen and (max-width: 768px){
 padding: 100px 0;
@@ -11,21 +11,15 @@ height:1000px}
 `;
 
 export const ReviewSection = styled.section`
-  width: 90vw;
-padding-top: 100px;
-
-
-
+ 
 @media screen and (min-width: 992px) {
     width: 95vw;
   }
-
 `;
 
 export const ReviewTitle = styled.div`
   text-align: center;
   margin-bottom: 2rem;
-
 
 &:hover{
     transform: scale(1.03);
@@ -38,17 +32,13 @@ export const ReviewH2 = styled.h2`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 500;
-
-font-size: 48px;
-line-height: 1.1;
-font-weight: 600;
+  font-weight: bold;
+  font-size: 48px;
 
 `;
 
 export const ReviewSectionCenter = styled.div`
   margin: 0 auto;
-
   width: 80vw;
   height: 450px;
   max-width: 800px;
