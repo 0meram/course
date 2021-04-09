@@ -115,13 +115,13 @@ export const IconLeft = styled(FiChevronLeft)`
 export const ReviewButtonPrev = styled.button`
  
  
-    font-size: 30px;
+    font-size: 50px;
     left: 0;
     position: absolute;
   top: 200px;
   transform: translateY(-50%);
-  background: #919191;
-  color: #ffffff;
+  background: transparent;
+  color: #ff791a;
   display: grid;
   place-items: center;
   border-color: transparent;
@@ -129,19 +129,19 @@ export const ReviewButtonPrev = styled.button`
   cursor: pointer;
   transition: all 0.3s linear;
 
-    &:hover{
-        background: black;
+    &:hover{  
+    font-size: 55px;
     }
 `;
 export const ReviewButtonNext = styled.button`
 
-    font-size: 30px;
+    font-size: 50px;
     right: 0;
     position: absolute;
   top: 200px;
   transform: translateY(-50%);
-  background: #919191;
-  color: #ffffff;
+  background: transparent;
+  color: #ff791a;
   display: grid;
   place-items: center;
   border-color: transparent;
@@ -150,7 +150,8 @@ export const ReviewButtonNext = styled.button`
   transition: all 0.3s linear;
 
     
-    &:hover{
-        background: black;
+  &:hover{  
+    font-size: 55px;
+    
     }
 `;
