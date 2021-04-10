@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-
+import { Link as LinkS} from 'react-scroll'
 
 
 export const FooterContainer = styled.div`
-background-color: #141414e0;
+background-color: #a3a3a3;
 
 `;
 
@@ -66,10 +66,10 @@ export const FooterLink = styled(Link)`
 color: white;
 text-decoration: none;
 margin-bottom: 0.9rem;
-font-size: 14px;
+font-size: 15px;
 
 &:hover{
-    color: #01bf71;
+    color: #ff791a;
     transition: 0.3s ease-out;
 }
 `;
@@ -110,6 +110,7 @@ font-weight: bold;
 export const WebSiteRights = styled.small`
 color: white;
 margin-bottom: 16px;
+margin-top:30px;
 
 `;
 
@@ -128,4 +129,37 @@ color: white;
 font-size: 24px;
 
 
-`
+`;
+
+export const LogoScroll = styled(LinkS)`
+/* color: #fff;
+justify-self: flex-start;
+cursor: pointer;
+font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-left: 24px;
+font-weight: bold;
+text-decoration: none;
+ */
+margin-bottom: 0px;
+`;
+
+
+export const NavLogo = styled.img`
+
+justify-self: flex-start;
+cursor: pointer;
+display: flex;
+align-items: center;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+
+&:hover{
+    transform: scale(1.09);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+`;

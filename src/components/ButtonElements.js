@@ -16,10 +16,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 transition: all 0.2s ease-in-out;
+text-decoration: none;
+
 
 &:hover {
-    transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ? '#00aceb' : '#ff791a')};
+    transition: all 0.3s ease-in-out;
+    background: ${({primary}) => (primary ? '#ffffff' : '#ff791a')};
+    transform: scale(1.07);
 }
 
 `
