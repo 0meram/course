@@ -69,7 +69,7 @@ function Review() {
   }, [index])
 
   return (
-    <ReviewContainer>
+    <ReviewContainer id="reviews">
     <ReviewSection>
       <ReviewTitle>
         <ReviewH2>

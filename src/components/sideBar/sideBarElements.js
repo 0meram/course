@@ -98,3 +98,36 @@ background: #fff;
 color: #010606;
 }
 `;
+
+export const LogoScroll = styled(LinkS)`
+/* color: #fff;
+justify-self: flex-start;
+cursor: pointer;
+font-size: 1.5rem;
+display: flex;
+align-items: center;
+margin-left: 24px;
+font-weight: bold;
+text-decoration: none;
+ */
+margin-bottom: 0px;
+`;
+
+
+export const NavLogo = styled.img`
+
+justify-self: flex-start;
+cursor: pointer;
+display: flex;
+align-items: center;
+border-radius: 50%;
+width: 200px;
+height: 200px;
+
+&:hover{
+    transform: scale(1.09);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+`;

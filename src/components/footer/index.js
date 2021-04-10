@@ -1,7 +1,8 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
 import Logo from '../../images/logo.jpg'
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaWhatsappSquare, FaLinkedin } from "react-icons/fa";
+import {SiWhatsapp} from "react-icons/si"
 import {
 FooterContainer,
 FooterWrap,
@@ -34,10 +35,7 @@ const Footer = () => {
                         <FooterLinkTitle> About us </FooterLinkTitle>
                             <FooterLink to="/signIn">How it works</FooterLink>
                             <FooterLink to="/signIn">Testimonails</FooterLink>
-                            <FooterLink to="/signIn">Careers</FooterLink>
-                            <FooterLink to="/signIn">Investors</FooterLink>
                             <FooterLink to="/signIn">About us</FooterLink>
-                            <FooterLink to="/signIn">Terms of policy</FooterLink>
                             </FooterLinkItem>
                         <FooterLinkItem>
                         <FooterLinkTitle> Contact Us </FooterLinkTitle>
@@ -60,16 +58,16 @@ const Footer = () => {
                     {/* <SocialLogo to='/' onClick={toggleHome}>
                         dolla
                     </SocialLogo> */}
-                       <LogoScroll>
+                    <LogoScroll>
                     <NavLogo to="/" onClick={toggleHome} src={Logo} alt="logo" /></LogoScroll>
                     <WebSiteRights>
-                    dolla @ {new Date().getFullYear()} all rights reserved.
+                    .גלגלי עזר @ {new Date().getFullYear()} כל הזכויות שמורות
                     </WebSiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.instagram.com/" target="_blank" aria-label="Instegram"><FaInstagram/></SocialIconLink>
                         <SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><FaFacebook/></SocialIconLink>
                         <SocialIconLink href="https://www.youtube.com/" target="_blank" aria-label="Youtube"><FaYoutube/></SocialIconLink>
-                        <SocialIconLink href="https://twitter.com/?lang=he" target="_blank" aria-label="Twitter"><FaTwitter/></SocialIconLink>
+                        <SocialIconLink href="https://wa.me/972542562122" target="_blank" aria-label="Whatsapp"><SiWhatsapp/></SocialIconLink>
                         <SocialIconLink href="https://www.linkedin.com/feed/" target="_blank" aria-label="Linkdin"><FaLinkedin/></SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>

@@ -13,9 +13,10 @@ font-size: 16px;
 position: sticky;
 top: 0;
 z-index: 10;
+transition: 1.8s all ease;
 
 @media screen and (max-width: 960px){
-    transition: 0.8s all ease;
+    transition: 2.0s all ease;
 }
 `;
 
@@ -31,16 +32,6 @@ max-width: 1100px;
 `;
 
 export const LogoScroll = styled(LinkS)`
-/* color: #fff;
-justify-self: flex-start;
-cursor: pointer;
-font-size: 1.5rem;
-display: flex;
-align-items: center;
-margin-left: 24px;
-font-weight: bold;
-text-decoration: none;
- */
 margin-bottom: 0px;
 `;
 

@@ -56,7 +56,7 @@ color: white;
 
 
 export const FooterLinkTitle = styled.h1`
-font-size: 16px;
+font-size: 20px;
 margin-bottom: 16px;
 
 `;
@@ -132,16 +132,6 @@ font-size: 24px;
 `;
 
 export const LogoScroll = styled(LinkS)`
-/* color: #fff;
-justify-self: flex-start;
-cursor: pointer;
-font-size: 1.5rem;
-display: flex;
-align-items: center;
-margin-left: 24px;
-font-weight: bold;
-text-decoration: none;
- */
 margin-bottom: 0px;
 `;
 
@@ -153,13 +143,12 @@ cursor: pointer;
 display: flex;
 align-items: center;
 border-radius: 50%;
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 
 &:hover{
     transform: scale(1.09);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
-
 `;

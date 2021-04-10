@@ -77,6 +77,15 @@ const toggleHome = () => {
                                     offset={-80}
                             >הקורס הקרוב</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks to="reviews"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                            >תגובות חברים</NavLinks>
+                        </NavItem>
                         {/* <NavItem>
                             <NavLinks to="sign"
                                     smooth={true}

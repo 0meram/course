@@ -1,7 +1,20 @@
 import React from 'react'
-import {SideBarContainer, Icon, CloseIcon, SideBarWrapper, SideBarMenu, SideBarLink, SideBarRoute, SideBarBtnWrap} from "./sideBarElements"
+import Logo from "../../images/logo.jpg"
+import {
+SideBarContainer,
+Icon,
+CloseIcon,
+SideBarWrapper,
+SideBarMenu,
+SideBarLink,
+SideBarRoute,
+SideBarBtnWrap,
+LogoScroll,
+NavLogo
+} from "./sideBarElements"
 
 const SideBar = ({isOpen, toggle}) => {
+
     return (
         <SideBarContainer isOpen={isOpen}>
             <Icon onClick={toggle}>
@@ -12,6 +25,7 @@ const SideBar = ({isOpen, toggle}) => {
                 <SideBarLink to="about" onClick={toggle}>קצת עלינו</SideBarLink>
                 <SideBarLink to="discover" onClick={toggle}> מה אנחנו עושים</SideBarLink>
                 <SideBarLink to="services" onClick={toggle}> הקורסים שלנו</SideBarLink>
+                <SideBarLink to="reviews" onClick={toggle}> תגובות חברים</SideBarLink>
             </SideBarMenu>
             
 <SideBarBtnWrap>
@@ -19,7 +33,7 @@ const SideBar = ({isOpen, toggle}) => {
 </SideBarBtnWrap>
 <br />
 <SideBarBtnWrap>
-    <SideBarRoute  to="home"  onClick={toggle}>Icon</SideBarRoute>
+<LogoScroll to="home"  onClick={toggle}> <NavLogo  src={Logo} alt="logo" /></LogoScroll>
 </SideBarBtnWrap>
 
 

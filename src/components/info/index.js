@@ -29,7 +29,8 @@ const Info = ({
     img,
     dark,
     dark2,
-    primary
+    primary,
+    to
 }) => {
     return (
         <>
@@ -42,7 +43,7 @@ const Info = ({
                         <Heading lightText={lightText}>{headline}</Heading>
                         <SubTitle darkText={darkText}>{description}</SubTitle>
                         <BtnWrap>
-                            <Button to='home'
+                            <Button to={to}
                             smooth={true}
                             duration={700}
                             spy={true}
