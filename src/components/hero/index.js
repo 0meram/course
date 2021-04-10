@@ -17,7 +17,7 @@ const onHover = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>משתחררים בכיף</HeroH1>
+                    <HeroH1>גלגלי עזר</HeroH1>
                     <HeroP>
                         קורסים חברים חוויות ולימודים , בואו אלינו אנחנו נדאג לכם
                     </HeroP>

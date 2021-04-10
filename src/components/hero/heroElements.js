@@ -19,7 +19,7 @@ right: 0;
 bottom: 0;
 left: 0;
 
-background:
+/* background:
  linear-gradient(
      180deg,
       rgba(0,0,0,0.2) 0%, 
@@ -29,7 +29,7 @@ background:
      180deg, 
      rgba(0,0,0,0.2) 0% , transparent 100%
      );
-     z-index: 2;
+     z-index: 2; */
 }
 
 `;
@@ -53,7 +53,7 @@ width: 100%;
 height: 100%;
 --o-object-fit: cover;
 object-fit: cover;
-background: #232a34;
+/* background: #232a34; */
 `;
 export const HeroContent = styled.div`
 z-index: 3;;
@@ -68,7 +68,7 @@ align-items: center;
 
 export const HeroH1 = styled.h1`
 color: white;
-font-size: 48px;
+font-size: 60px;
 text-align: center;
 
 @media screen and (max-width: 768px){
