@@ -9,6 +9,9 @@ import Footer from '../components/footer'
 import SignIn from '../components/signIn'
 import Pricing from '../components/pricing/pricing'
 import Review from '../components/reviews/review'
+import Recomandation from '../components/recomandation/recomandation'
+import OurValues from '../components/ourValues/values'
+import Companies from "../components/recomandation/companiesLogo"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,12 +26,11 @@ const toggleSideBar = () =>{
             <Hero />
             <Info {...homeObjOne}/>
             <Info {...homeObjFour}/>
-            {/* <Info {...homeObjFive}/>
-            <Info {...homeObjTwo}/> */}
             <Services />
-            {/* <Info {...homeObjThree}/> */}
-            {/* <Pricing /> */}
+            <OurValues />
             <Review />
+            <Recomandation />
+            <Companies/>
             <SignIn />
             <Footer />
         </>

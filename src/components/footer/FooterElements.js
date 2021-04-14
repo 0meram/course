@@ -4,7 +4,7 @@ import { Link as LinkS} from 'react-scroll'
 
 
 export const FooterContainer = styled.div`
-background-color: #a3a3a3;
+background-color: #474747;
 
 `;
 
@@ -142,7 +142,7 @@ justify-self: flex-start;
 cursor: pointer;
 display: flex;
 align-items: center;
-border-radius: 50%;
+/* border-radius: 50%; */
 width: 150px;
 height: 150px;
 

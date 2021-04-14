@@ -21,7 +21,7 @@ export default function SignIn() {
    const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_6v4hews', 'template_pp8rjxk', e.target, 'user_4S5qd3ECFtim4kkKRXvDb')
+        emailjs.sendForm('service_7t04mjz', 'template_z3426fl', e.target, 'user_4S5qd3ECFtim4kkKRXvDb')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

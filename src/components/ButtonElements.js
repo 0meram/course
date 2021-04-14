@@ -23,6 +23,8 @@ text-decoration: none;
     transition: all 0.3s ease-in-out;
     background: ${({primary}) => (primary ? '#ffffff' : '#ff791a')};
     transform: scale(1.07);
+    color: black;
 }
+
 
 `

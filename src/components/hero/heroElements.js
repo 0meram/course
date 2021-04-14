@@ -47,6 +47,8 @@ overflow: hidden;
 
 `;
 
+
+
 export const VideoBg = styled.video`
 
 width: 100%;
@@ -66,13 +68,36 @@ align-items: center;
 
 `;
 
-export const HeroH1 = styled.h1`
-color: white;
-font-size: 60px;
-text-align: center;
+export const HeroImg = styled.img`
+height: 300px;
+width: 400px;
+
+&:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+   
+}
 
 @media screen and (max-width: 768px){
-font-size: 40px;
+    height: 300px;
+width: 400px;
+    }
+
+@media screen and (max-width: 480px){
+height: 260px;
+width: 300px;
+}
+
+`
+
+export const HeroH1 = styled.h1`
+color: white;
+font-size: 64px;
+text-align: center;
+font-weight: bold;
+
+@media screen and (max-width: 768px){
+font-size: 50px;
     }
 
 @media screen and (max-width: 480px){

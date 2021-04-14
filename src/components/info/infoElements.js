@@ -57,11 +57,11 @@ padding-bottom: 60px;
 
 
 export const TopLine = styled.p`
-color: #ff791a;
-font-size: 16px;
+color: ${({lightTitle}) => (lightTitle ? '#ff791a' : '#010606')};
+font-size: 20px;
 line-height: 16px;
 font-weight: 700;
-letter-spacing: 1.4rem;
+letter-spacing: 8px;
 text-transform: uppercase;
 margin-bottom: 16px;
 

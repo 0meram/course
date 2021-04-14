@@ -5,13 +5,15 @@ import { FiChevronRight, FiChevronLeft } from 'react-icons/fi'
 export const ReviewContainer = styled.div`
 margin: 0;
 background-color: #fcfcfc;
+
 @media screen and (max-width: 768px){
 padding: 100px 0;
 height:1000px}
 `;
 
 export const ReviewSection = styled.section`
- 
+ margin: 0;
+ padding: 24px;
 @media screen and (min-width: 992px) {
     width: 95vw;
   }
@@ -51,7 +53,6 @@ export const ReviewSectionCenter = styled.div`
 padding: 100px 0;
 height:1000px}
 `;
-
 
 
 export const ReviewArticle = styled.article`

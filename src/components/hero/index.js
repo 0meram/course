@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video3.mp4'
+import Video from '../../videos/video4.mp4'
 import {Button} from '../ButtonElements'
-import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
+import Logo from "../../images/logoMain.png"
+import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroImg, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
 
 const Hero = () => {
 const[hover, setHover] = useState(false)
@@ -17,10 +18,11 @@ const onHover = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
                 </HeroBg>
                 <HeroContent>
-                    <HeroH1>גלגלי עזר</HeroH1>
-                    <HeroP>
+                    {/* <HeroH1>גלגלי עזר</HeroH1> */}
+                    <HeroImg src={Logo} alt="hero"></HeroImg>
+                    {/* <HeroP>
                         קורסים חברים חוויות ולימודים , בואו אלינו אנחנו נדאג לכם
-                    </HeroP>
+                    </HeroP> */}
                     <HeroBtnWrapper>
                         <Button
                          to='about' 

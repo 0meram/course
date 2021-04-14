@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars } from "react-icons/fa";
 import {animateScroll as scroll} from 'react-scroll'
-import Logo from '../../images/logo.jpg'
+import Logo from '../../images/logoMain.png'
 import {
 Nav,
 NavContainer,

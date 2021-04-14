@@ -1,6 +1,6 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import Logo from '../../images/logo.jpg'
+import Logo from '../../images/logoMain.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaWhatsappSquare, FaLinkedin } from "react-icons/fa";
 import {SiWhatsapp} from "react-icons/si"
 import {
@@ -31,7 +31,7 @@ const Footer = () => {
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
-                        <FooterLinkItem>
+                        {/* <FooterLinkItem>
                         <FooterLinkTitle> About us </FooterLinkTitle>
                             <FooterLink to="/signIn">How it works</FooterLink>
                             <FooterLink to="/signIn">Testimonails</FooterLink>
@@ -50,7 +50,7 @@ const Footer = () => {
                             <FooterLink to="/signIn">Ambassadors</FooterLink>
                             <FooterLink to="/signIn">Agency</FooterLink>
                             <FooterLink to="/signIn">Influencer</FooterLink>
-                            </FooterLinkItem>
+                            </FooterLinkItem> */}
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
@@ -66,9 +66,7 @@ const Footer = () => {
                     <SocialIcons>
                         <SocialIconLink href="https://www.instagram.com/" target="_blank" aria-label="Instegram"><FaInstagram/></SocialIconLink>
                         <SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><FaFacebook/></SocialIconLink>
-                        <SocialIconLink href="https://www.youtube.com/" target="_blank" aria-label="Youtube"><FaYoutube/></SocialIconLink>
-                        <SocialIconLink href="https://wa.me/972542562122" target="_blank" aria-label="Whatsapp"><SiWhatsapp/></SocialIconLink>
-                        <SocialIconLink href="https://www.linkedin.com/feed/" target="_blank" aria-label="Linkdin"><FaLinkedin/></SocialIconLink>
+                        <SocialIconLink href="https://wa.me/972509705088" target="_blank" aria-label="Whatsapp"><SiWhatsapp/></SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
                 </SocialMedia>
