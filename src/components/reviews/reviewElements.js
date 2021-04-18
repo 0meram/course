@@ -122,7 +122,7 @@ export const ReviewButtonPrev = styled.button`
   top: 200px;
   transform: translateY(-50%);
   background: transparent;
-  color: #ff791a;
+  color: #ffc400;
   display: grid;
   place-items: center;
   border-color: transparent;
@@ -142,7 +142,7 @@ export const ReviewButtonNext = styled.button`
   top: 200px;
   transform: translateY(-50%);
   background: transparent;
-  color: #ff791a;
+  color: #ffc400;
   display: grid;
   place-items: center;
   border-color: transparent;

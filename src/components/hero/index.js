@@ -20,9 +20,8 @@ const onHover = () => {
                 <HeroContent>
                     {/* <HeroH1>גלגלי עזר</HeroH1> */}
                     <HeroImg src={Logo} alt="hero"></HeroImg>
-                    {/* <HeroP>
-                        קורסים חברים חוויות ולימודים , בואו אלינו אנחנו נדאג לכם
-                    </HeroP> */}
+                    <HeroP>
+                     דור העתיד זה אתם ואנו כאן בשבילכם </HeroP>
                     <HeroBtnWrapper>
                         <Button
                          to='about' 

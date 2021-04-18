@@ -44,7 +44,7 @@ display: flex;
 align-items: center;
 margin-left: 24px;
 /* border-radius: 50%; */
-width: 100px;
+width: 120px;
 height: 100px;
 
 &:hover{
@@ -66,7 +66,7 @@ display: none;
     transform: translate(-100%, 20%);
     font-size: 30px;
     cursor: pointer;
-    color: #ff791a;
+    color: #ffc400;
 }
 `;
 
@@ -91,7 +91,7 @@ height: 80px;
 
 
 export const NavLinks = styled(LinkS)`
-color:  ${({scrollNav}) => (scrollNav ? '#000' : ' #ff791a')};
+color:  ${({scrollNav}) => (scrollNav ? '#000' : ' #ffc400')};
 display:flex;
 align-items:center;
 text-decoration: none;
@@ -123,7 +123,7 @@ align-items:center;
 export const NavBtnLink = styled(LinkS)`
 
 border-radius: 50px;
-background: #ff791a;
+background: #ffc400;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;
@@ -139,7 +139,7 @@ text-decoration: none;
     transform: scale(1.06);
 transition: all 0.2s ease-in-out;
 background: #fff;
-color: #ff791a;
+color: #ffc400;
 }
 
 @media screen and (max-width: 768px){

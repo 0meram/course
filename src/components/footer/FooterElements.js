@@ -143,8 +143,8 @@ cursor: pointer;
 display: flex;
 align-items: center;
 /* border-radius: 50%; */
-width: 150px;
-height: 150px;
+width: 140px;
+height: 120px;
 
 &:hover{
     transform: scale(1.09);

@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 export const InfoContainer = styled.div`
 color: white;
-background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#ff791a')};
+background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#ffc400')};
 @media screen and (max-width: 768px){
 padding: 100px 0;
 }
@@ -20,6 +20,7 @@ margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
 justify-content: center;
+text-align: right;
 `;
 
 export const InfoRow = styled.div`
@@ -82,7 +83,6 @@ font-size: 32px;
 `;
 
 export const SubTitle = styled.p`
-max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;

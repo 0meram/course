@@ -78,7 +78,7 @@ padding: 32px 32px;
 
 export const FormH1 = styled.h1`
 margin-bottom: 40px;
-color: #ff791a;
+color: #ffc400;
 font-size: 32px;
 font-weight: 500;
 text-align: center;
@@ -88,7 +88,7 @@ text-align: center;
 export const FormLabel = styled.label`
 margin-bottom: 5px;
 font-size: 15px;
-color: #ff791a;
+color: #ffc400;
 `;
 
 
@@ -104,7 +104,7 @@ border-radius: 4px;
 `;
 
 export const FormButton = styled.button`
-background: #ff791a;
+background: #ffc400;
 padding: 12px 0;
 border: none;
 border-radius: 30px;

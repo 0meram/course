@@ -7,7 +7,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #ff791a;
+background: #ffc400;
 color: #fff;
 margin: 0;
 
@@ -30,8 +30,8 @@ max-width: 1000px;
 margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-align-items: center;
-grid-gap: 50px;
+align-items: flex-start;
+grid-gap: 90px;
 padding: 0 0px;
 
 @media screen and (max-width: 1000px){
@@ -97,6 +97,7 @@ export const ServicesH2 = styled.h2`
 font-size: 20px;
 font-weight: bold;
 margin-bottom:10px ;
+color: black;
 `;
 
 export const ServicesP = styled.p`
