@@ -11,8 +11,8 @@ background-color: #474747;
 
 export const FooterWrap = styled.div`
 padding: 48px 24px;
-display: flex;
-flex-direction: column;
+/* display: flex;
+flex-direction: column; */
 justify-content: center;
 align-items: center;
 max-width: 1100px;
@@ -29,7 +29,7 @@ display: flex;
 `;
 
 export const FooterLinksWrapper = styled.div`
-display: flex;
+/* display: flex; */
 
 @media screen and (max-width: 820px){
    flex-direction: column;
@@ -37,9 +37,9 @@ display: flex;
 `;
 
 export const FooterLinkItem = styled.div`
-display: flex;
+/* display: flex;
 flex-direction: column;
-align-items: flex-start;
+align-items: flex-start; */
 margin: 16px;
 text-align: left;
 width: 160px;
@@ -69,7 +69,7 @@ margin-bottom: 0.9rem;
 font-size: 15px;
 
 &:hover{
-    color: #ff791a;
+    color: #ffc400;
     transition: 0.3s ease-out;
 }
 `;
@@ -81,21 +81,23 @@ width: 100%;
 
 
 export const SocialMediaWrap = styled.div`
-display: flex;
-justify-content: space-between;
+/* display: flex;
+justify-content: space-between; */
 align-items: center;
+text-align: center;
+justify-content: center;
 max-width: 1100px;
-margin: 40px auto 0 auto;
+margin:  0 ;
 
 @media screen and (max-width: 820px) {
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 `;
 
 
 export const SocialLogo = styled(Link)`
 color: white;
-justify-self: start;
+/* justify-self: start; */
 cursor: pointer;
 text-decoration: none;
 font-size: 1.5rem;
@@ -110,7 +112,7 @@ font-weight: bold;
 export const WebSiteRights = styled.small`
 color: white;
 margin-bottom: 16px;
-margin-top:30px;
+margin-top: 40px;
 
 `;
 
@@ -119,7 +121,11 @@ export const SocialIcons = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
+
 width: 240px;
+margin: 0 auto;
+padding-bottom: 30px;
+padding-top: 30px;
 
 `;
 
@@ -127,7 +133,10 @@ width: 240px;
 export const SocialIconLink = styled.a`
 color: white;
 font-size: 24px;
-
+&:hover{
+    color: #ffc400;
+    transition: 0.3s ease-out;
+}
 
 `;
 
@@ -138,9 +147,9 @@ margin-bottom: 0px;
 
 export const NavLogo = styled.img`
 
-justify-self: flex-start;
+/* justify-self: flex-start;
 cursor: pointer;
-display: flex;
+display: flex; */
 align-items: center;
 /* border-radius: 50%; */
 width: 140px;

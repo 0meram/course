@@ -3,6 +3,7 @@ import Finish from "../../images/finish.svg"
 import Savings from "../../images/savings.svg"
 import Pay from "../../images/pay.svg"
 import Wallet from "../../images/wallet.svg"
+import Man from '../../images/purpleMan.png'
 
 
 export const homeObjOne = {
@@ -73,7 +74,7 @@ export const homeObjFour = {
     to:'services',
     buttonLabel: 'לסדנאות שלנו',
     imgStart: true,
-    img: Finish,
+    img: Man,
     alt: 'giggy' ,
     dark: false,
     primary: false,

@@ -29,8 +29,8 @@ const Footer = () => {
         <>
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
+                {/* <FooterLinksContainer>
+                    <FooterLinksWrapper> */}
                         {/* <FooterLinkItem>
                         <FooterLinkTitle> About us </FooterLinkTitle>
                             <FooterLink to="/signIn">How it works</FooterLink>
@@ -51,8 +51,8 @@ const Footer = () => {
                             <FooterLink to="/signIn">Agency</FooterLink>
                             <FooterLink to="/signIn">Influencer</FooterLink>
                             </FooterLinkItem> */}
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
+                    {/* </FooterLinksWrapper>
+                </FooterLinksContainer> */}
                 <SocialMedia>
                 <SocialMediaWrap>
                     {/* <SocialLogo to='/' onClick={toggleHome}>
@@ -60,14 +60,14 @@ const Footer = () => {
                     </SocialLogo> */}
                     <LogoScroll>
                     <NavLogo to="/" onClick={toggleHome} src={Logo} alt="logo" /></LogoScroll>
-                    <WebSiteRights>
-                    .גלגלי עזר @ {new Date().getFullYear()} כל הזכויות שמורות
-                    </WebSiteRights>
                     <SocialIcons>
                         <SocialIconLink href="https://www.instagram.com/" target="_blank" aria-label="Instegram"><FaInstagram/></SocialIconLink>
                         <SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><FaFacebook/></SocialIconLink>
                         <SocialIconLink href="https://wa.me/972509705088" target="_blank" aria-label="Whatsapp"><SiWhatsapp/></SocialIconLink>
                     </SocialIcons>
+                    <WebSiteRights>
+                    .גלגלי עזר @ {new Date().getFullYear()} כל הזכויות שמורות
+                    </WebSiteRights>
                 </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>

@@ -79,8 +79,8 @@ align-items: center;
 `;
 
 export const HeroImg = styled.img`
-height: 300px;
-width: 400px;
+height: 140px;
+width: 180px;
 
 &:hover{
     transform: scale(1.05);
@@ -89,13 +89,13 @@ width: 400px;
 }
 
 @media screen and (max-width: 768px){
-    height: 300px;
-width: 400px;
+    height: 100px;
+width: 120px;
     }
 
 @media screen and (max-width: 480px){
-height: 260px;
-width: 300px;
+    height: 100px;
+width: 120px;
 }
 
 `

@@ -3,6 +3,7 @@ import Video from '../../videos/video4.mp4'
 import {Button} from '../ButtonElements'
 import Logo from "../../images/logoMain.png"
 import Grey from '../../images/grey.jpg'
+import Wheels from '../../images/Wheels.png'
 import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroImg, BgImage, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
 
 const Hero = () => {
@@ -20,6 +21,7 @@ const onHover = () => {
                     <BgImage src={Grey} alt="grey"/>
                 </HeroBg>
                 <HeroContent>
+                       <HeroImg src={Wheels} alt="hero"></HeroImg>
                     <HeroH1>גלגלי עזר</HeroH1>
                     {/* <HeroImg src={Logo} alt="hero"></HeroImg> */}
                     <HeroP>

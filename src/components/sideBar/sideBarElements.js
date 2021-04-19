@@ -9,7 +9,7 @@ position:  fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: #808080f2;
+background: #545454f0;
 display: grid;
 align-items: center;
 top:0;
@@ -44,7 +44,7 @@ color: white;
 export const SideBarMenu = styled.ul`
 display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(6, 70px);
+grid-template-rows: repeat(5, 70px);
 text-align: center;
 
 @media screen and(max-width: 480px) {
@@ -65,7 +65,7 @@ color: white;
 cursor: pointer;
 
 &:hover{
-    color: #ff791a;
+    color: #ffc400;
     transition: 0.2s ease-in-out; 
 }
 
@@ -82,7 +82,7 @@ justify-content: center;
 
 export const SideBarRoute = styled(LinkS)`
 border-radius: 50px;
-background: #ff791a;
+background: #ffc400;
 white-space: nowrap;
 padding: 14px 64px;
 color: #010606;
