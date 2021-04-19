@@ -93,7 +93,6 @@ margin-bottom:10px ;
 `;
 
 export const ServicesP = styled.p`
-font-size: 1rem;
+font-size: 18px;
 text-align:center ;
-
 `

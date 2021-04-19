@@ -26,9 +26,9 @@ overflow:hidden;
 
 export const CompaniesLogo = styled.img`
 align-items: center;
-height: 60px;
-width: 60px;
-margin: 40px 60px;
+height: 90px;
+width: 150px;
+margin: 40px 30px;
 @media screen and (max-width: 480px){
 height: 70px;
 margin: 0px 30px;

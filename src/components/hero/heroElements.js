@@ -57,6 +57,16 @@ height: 100%;
 object-fit: cover;
 /* background: #232a34; */
 `;
+
+export const BgImage = styled.img`
+width: 100%;
+height: 100%;
+--o-object-fit: cover;
+object-fit: cover;
+
+`
+
+
 export const HeroContent = styled.div`
 z-index: 3;;
 max-width: 1200px;
@@ -92,27 +102,27 @@ width: 300px;
 
 export const HeroH1 = styled.h1`
 color: white;
-font-size: 64px;
+font-size: 94px;
 text-align: center;
 font-weight: bold;
 
 @media screen and (max-width: 768px){
-font-size: 50px;
+font-size: 70px;
     }
 
 @media screen and (max-width: 480px){
-font-size: 32px;
+font-size: 42px;
 }
 `;
 export const HeroP = styled.p`
-margin-top: 24px;
+
 color: white;
-font-size: 24px;
+font-size: 44px;
 text-align: center;
 max-width: 600px;
 
 @media screen and (max-width: 768px){
-font-size: 24px;
+font-size: 34px;
     }
 
 @media screen and (max-width: 480px){

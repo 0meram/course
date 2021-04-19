@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import Video from '../../videos/video4.mp4'
 import {Button} from '../ButtonElements'
 import Logo from "../../images/logoMain.png"
-import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroImg, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
+import Grey from '../../images/grey.jpg'
+import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroImg, BgImage, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
 
 const Hero = () => {
 const[hover, setHover] = useState(false)
@@ -15,11 +16,12 @@ const onHover = () => {
         <>
             <HeroContainer id='home'>
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                    {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4'/> */}
+                    <BgImage src={Grey} alt="grey"/>
                 </HeroBg>
                 <HeroContent>
-                    {/* <HeroH1>גלגלי עזר</HeroH1> */}
-                    <HeroImg src={Logo} alt="hero"></HeroImg>
+                    <HeroH1>גלגלי עזר</HeroH1>
+                    {/* <HeroImg src={Logo} alt="hero"></HeroImg> */}
                     <HeroP>
                      דור העתיד זה אתם ואנו כאן בשבילכם </HeroP>
                     <HeroBtnWrapper>
@@ -35,7 +37,7 @@ const onHover = () => {
                          exact='true'
                          offset={-80}
                          >
-                            בואו נתחיל {hover ? <ArrowRight /> : < ArrowForward /> }
+                            {hover ? <ArrowRight /> : < ArrowForward /> }בואו נתחיל 
                         </Button>
                     </HeroBtnWrapper>
                 </HeroContent>

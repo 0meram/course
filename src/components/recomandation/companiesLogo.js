@@ -1,6 +1,7 @@
 
 import React from 'react'
-import Icon from "../../images/pay.svg"
+import Icon from "../../images/orNatan.png"
+
 import {
 ServicesContainer,
 CompaniesContainer,
@@ -14,7 +15,6 @@ const Companies = () => {
         <>
         <ServicesContainer id='logo' key="key">
             <CompaniesContainer >
-              <CompaniesLogo src={Icon} alt={"image"}/>
               <CompaniesLogo src={Icon} alt={"image"}/>
               <CompaniesLogo src={Icon} alt={"image"}/>
               <CompaniesLogo src={Icon} alt={"image"}/>

@@ -1,4 +1,6 @@
 import styled  from 'styled-components'
+import { FaPeopleCarry } from "react-icons/fa";
+
 
 
 export const ServicesContainer = styled.div`
@@ -73,11 +75,12 @@ transition: all 0.2s ease-in-out;
 
 `
 
-export const ServicesIcon = styled.img`
+export const ServicesIcon = styled.div`
 height: 100px;
 width: 100px;
-margin-bottom: 10px;
-
+margin-bottom: 14px;
+text-align: center;
+font-size: 75px;
 `;
 
 

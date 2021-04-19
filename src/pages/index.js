@@ -25,11 +25,11 @@ const toggleSideBar = () =>{
             <SideBar isOpen={isOpen} toggle={toggleSideBar}/>
             <NavBar toggle={toggleSideBar} />
             <Hero />
-            <Info {...homeObjOne}/>
             <Info {...homeObjFour}/>
+            <Info {...homeObjOne}/>
             {/* <Course /> */}
-            <Services />
             <OurValues />
+            <Services />
             <Review />
             <Recomandation />
             <Companies/>
