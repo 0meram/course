@@ -35,7 +35,9 @@ export const ReviewH2 = styled.h2`
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 60px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 
 `;
 
@@ -73,7 +75,7 @@ export const ReviewImg = styled.img`
   width: 180px;
   height: 180px;
   object-fit: cover;
-  border: 4px solid  #c3d7dae3;
+  border: 3px solid  #fce26ef0;
   box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
 
 @media screen and (max-width: 768px){

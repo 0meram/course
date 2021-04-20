@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import Icon1 from '../../images/Chatbot.svg'
-import Icon2 from '../../images/digitalCurrency.svg'
+import Icon1 from '../../images/leason.jpeg'
+import Icon2 from '../../images/fun.jpeg'
 import {Button} from "../ButtonElements"
 import "./services.css"
 import IconButton from '@material-ui/core/IconButton';

@@ -1,8 +1,5 @@
 import React from 'react'
-import Icon1 from '../../images/Chatbot.svg'
-import Icon2 from '../../images/digitalCurrency.svg'
-import Icon3 from '../../images/digitalCurrency.svg'
-import Icon4 from '../../images/digitalCurrency.svg'
+
 import { GiSupersonicArrow } from "react-icons/gi";
 import { GiMountainRoad } from "react-icons/gi";
 import { SiGumroad } from "react-icons/si";

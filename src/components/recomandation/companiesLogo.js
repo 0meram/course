@@ -1,6 +1,8 @@
 
 import React from 'react'
-import Icon from "../../images/orNatan.png"
+import Mifne from '../../images/mifne.jpg'
+import OrNatan from '../../images/orNatan.jfif'
+import ShellTech from '../../images/shellTech.jfif'
 
 import {
 ServicesContainer,
@@ -15,9 +17,9 @@ const Companies = () => {
         <>
         <ServicesContainer id='logo' key="key">
             <CompaniesContainer >
-              <CompaniesLogo src={Icon} alt={"image"}/>
-              <CompaniesLogo src={Icon} alt={"image"}/>
-              <CompaniesLogo src={Icon} alt={"image"}/>
+              <CompaniesLogo src={Mifne} alt={"image"}/>
+              <CompaniesLogo src={OrNatan} alt={"image"}/>
+              <CompaniesLogo src={ShellTech} alt={"image"}/>
             </CompaniesContainer>
         </ServicesContainer>
             

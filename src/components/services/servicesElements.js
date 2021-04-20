@@ -66,15 +66,19 @@ height: fit-content;
 // `
 
 export const ServicesIcon = styled.img`
-height: 160px;
-width: 160px;
+height: 150px;
+width: 180px;
 margin-bottom: 10px;
+border-radius: 10px;
+&:hover{
+
+}
 
 `;
 
 
 export const ServicesH1 = styled.h1`
-font-size: 50px;
+font-size: 60px;
 font-weight: bold;
 color: #000;
 margin-top: 50px;
@@ -87,7 +91,7 @@ margin-bottom: 20px;
 `;
 
 export const ServicesH2 = styled.h2`
-font-size: 22px;
+font-size: 26px;
 font-weight: bold;
 margin-bottom:10px ;
 `;

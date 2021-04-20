@@ -42,7 +42,7 @@ const Recomandation = () => {
     return (
         <>
         <ServicesContainer id='services' key={people.id}>
-            <ServicesH1>מלווים ממליצים</ServicesH1>
+            <ServicesH1>השותפים שלנו</ServicesH1>
             <ServicesWrapper>
               {people.map((person) => {
                 const {id, image, name, title, quote} = person;
