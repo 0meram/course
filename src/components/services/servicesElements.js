@@ -66,12 +66,17 @@ height: fit-content;
 // `
 
 export const ServicesIcon = styled.img`
-height: 150px;
+/* height: 150px;
 width: 180px;
 margin-bottom: 10px;
-border-radius: 10px;
+border-radius: 10px; */
+height: 330px;
+width: 100%;
+border-radius: 4px;
+transition: all 1.5s ease;
 &:hover{
-
+transform: scale(1.4);
+border-radius: 4px;
 }
 
 `;
@@ -91,12 +96,15 @@ margin-bottom: 20px;
 `;
 
 export const ServicesH2 = styled.h2`
-font-size: 26px;
+font-size: 30px;
+color: #ffc400;
 font-weight: bold;
 margin-bottom:10px ;
+margin-top:55px ;
 `;
 
 export const ServicesP = styled.p`
 font-size: 18px;
 text-align:center ;
+padding: 20px
 `

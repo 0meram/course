@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Icon1 from '../../images/leason.jpeg'
-import Icon2 from '../../images/fun.jpeg'
+import Icon2 from '../../images/young.jpg'
 import {Button} from "../ButtonElements"
 import "./services.css"
 import IconButton from '@material-ui/core/IconButton';
@@ -47,7 +47,9 @@ const Services = () => {
             <ServicesH1>הסדנאות שלנו</ServicesH1>
             <ServicesWrapper>
                 <div className={expand1} onClick={handleExpandClick}>
+                  <div className="inner">
                     <ServicesIcon src={Icon1} />
+                    </div>
                     <ServicesH2>עפים על החיים</ServicesH2>
                     <ServicesP>סדנת 'עפים על החיים' - סדנא המיועדת עבור משוחררות ומשוחררים משירות צבאי ולאומי. מטרת הסדנא הינה לסייע במעבר מהשירות לאומי/צבאי אל האזרחות.
 הסדנא מקיפה ושוזרת מספר תחומים ונושאים אשר הינם קריטיים לשלב בו הם נמצאים בצורה מקצועית, חוייתית ומדויקת.
@@ -68,7 +70,9 @@ const Services = () => {
                         <IconButton><ExpandMoreIcon onClick={handleExpandClick}/></IconButton>
                 </div>
                 <div className={expand2} onClick={handleExpandClick1}>
+                <div className="inner">
                     <ServicesIcon src={Icon2} />
+                    </div>
                     <ServicesH2>כישורי חיים</ServicesH2>
                     <ServicesP>סדנת 'כישורי חיים' - סדנא המיודעת לנערים ונערות בכיתה יב'.
 מטרת הסדנא הינה לסייע במעבר מהתיכון לקראת שנת הכנה לצבא/שירות צבאי.

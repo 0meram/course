@@ -5,14 +5,14 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
-padding: 30px;
+padding: 0px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 transition: all 0.7s ease-in-out;
 overflow: hidden;
-height: 420px;
+height: 630px;
 }
 .show-more:hover  {
-    transform: scale(1.04);
+    /* transform: scale(1.04); */
         transition: transform 0.4s ease-in-out;
         cursor: pointer;
 }
@@ -25,7 +25,7 @@ height: 420px;
 
 .show-more p{
     overflow: hidden;
-    height: 50px;
+    height: 70px;
 
 }
 
@@ -37,7 +37,7 @@ height: 420px;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.3);
     height: fit-content;
 }
@@ -56,20 +56,20 @@ height: 420px;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
     overflow: hidden;
-    height: 420px;
-    }
+    height: 630px;
+}
     .show-more1:hover {
-        transform: scale(1.04);
+        /* transform: scale(1.04); */
         transition: transform 0.4s ease-in-out;            cursor: pointer;
     }
     
     .show-more1 p{
         overflow: hidden;
-        height: 50px;
+        height: 70px;
     }
     
     
@@ -80,7 +80,7 @@ height: 420px;
         justify-content: flex-start;
         align-items: center;
         border-radius: 10px;
-        padding: 30px;
+        padding: 0px;
         box-shadow: 0 1px 30px rgba(0, 0, 0, 0.3);
         transition: all 0.2s ease-in-out;
         
@@ -91,4 +91,7 @@ height: 420px;
         transition: transform 0.4s ease-in-out;            cursor: pointer;
     }
     
-    
+    .inner {
+        overflow: hidden;
+        border-radius: 4px;
+    }
