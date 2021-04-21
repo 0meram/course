@@ -4,7 +4,7 @@ import { Link as LinkS} from 'react-scroll'
 
 
 export const FooterContainer = styled.div`
-background-color: #474747;
+background-color: #494949;
 
 `;
 

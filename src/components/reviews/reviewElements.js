@@ -36,8 +36,12 @@ export const ReviewH2 = styled.h2`
   justify-content: center;
   font-weight: bold;
   font-size: 60px;
-  margin-top: 64px;
+  margin-top: 20px;
   margin-bottom: 64px;
+  @media screen and (max-width: 480px) {
+    font-size: 35px;
+    padding: 10px;
+  }
 
 `;
 
@@ -75,7 +79,7 @@ export const ReviewImg = styled.img`
   width: 180px;
   height: 180px;
   object-fit: cover;
-  border: 3px solid  #fce26ef0;
+  /* border: 3px solid  #fce26ef0; */
   box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
 
 @media screen and (max-width: 768px){

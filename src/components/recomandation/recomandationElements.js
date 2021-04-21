@@ -80,7 +80,7 @@ export const ServicesIcon = styled.img`
   width: 180px;
   height: 180px;
   object-fit: cover;
-  border: 3px solid  #fce26ef0;
+  /* border: 3px solid  #ffc400; */
   box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
 
 @media screen and (max-width: 768px){

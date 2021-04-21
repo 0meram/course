@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Video from '../../videos/video4.mp4'
 import {Button} from '../ButtonElements'
 import Logo from "../../images/logoMain.png"
-import Grey from '../../images/gray.jpg'
+import Grey from '../../images/fun.jpeg'
 import Wheels from '../../images/Wheels.png'
 import {HeroContainer, HeroBg, VideoBg ,HeroContent, HeroH1, HeroImg, BgImage, HeroP, HeroBtnWrapper, HeroButton, ArrowForward, ArrowRight } from "./heroElements"
 
@@ -28,7 +28,7 @@ const onHover = () => {
                      דור העתיד זה אתם ואנו כאן בשבילכם </HeroP>
                     <HeroBtnWrapper>
                         <Button
-                         to='about' 
+                         to='discover' 
                          onMouseEnter={onHover} 
                          onMouseLeave={onHover}
                          primary='true'

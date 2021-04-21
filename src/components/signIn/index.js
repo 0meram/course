@@ -11,8 +11,13 @@ FormH1,
 FormLabel,
 FormInput,
 FormButton,
+NamePhoneCon,
+FormNameInput,
+FormPhoneInput,
+FormMassegeInput,
 Text,
-BackButton
+BackButton,
+
 } from './SihgnInElements'
 
 export default function SignIn() {
@@ -33,26 +38,28 @@ export default function SignIn() {
 
     return (
         <>
-        {/* <Container> */}
-            <FormWrap id="signup">
+        <Container id="signup">
+            <FormWrap >
                 {/* <Icon to="/">Dolla</Icon> */}
                 <FormContent>
-                <FormH1>שלח לנו פרטים ונחזור אליך בהקדם</FormH1>
+                <FormH1>שלח\י אלינו פרטים ונחזור אליך בהקדם</FormH1>
                     <Form  onSubmit={sendEmail}>
-                        <FormLabel for="fname">שם</FormLabel>
-                        <FormInput type="text" required name="name"></FormInput>
-                        <FormLabel for="phone">מספר טלפון</FormLabel>
-                        <FormInput type="tel" required name="phone" placeholder="050-0000-111" pattern="[0-9]{3}[0-9]{4}[0-9]{3}"></FormInput>
-                        <FormLabel htmlFor='for'>Email</FormLabel>
-                        <FormInput type='email' required name="email" placeholder="@gmail.com"></FormInput>
-                        <FormLabel>הודעה</FormLabel>
-                        <FormInput type="text" name="message"></FormInput>
+                        <NamePhoneCon>
+                        {/* <FormLabel for="fname">שם</FormLabel> */}
+                        <FormPhoneInput type="tel" required name="phone" placeholder="מספר טלפון" pattern="[0-9]{3}[0-9]{4}[0-9]{3}"></FormPhoneInput>
+                        <FormNameInput type="text" required name="name" placeholder="שם"></FormNameInput>
+                        {/* <FormLabel for="phone">מספר טלפון</FormLabel> */}
+                        </NamePhoneCon>
+                        {/* <FormLabel htmlFor='for'>Email</FormLabel> */}
+                        <FormInput type='email' required name="email" placeholder="אימייל"></FormInput>
+                        {/* <FormLabel>הודעה</FormLabel> */}
+                        <FormMassegeInput type="text" name="message"  placeholder="תכתבו לנו "></FormMassegeInput>
                         <FormButton type='submit'>שלח</FormButton>
                         {/* <BackButton to='/'>Get back home</BackButton> */}
                         </Form>
                 </FormContent>
             </FormWrap>
-        {/* </Container> */}
+        </Container>
             
         </>
     )

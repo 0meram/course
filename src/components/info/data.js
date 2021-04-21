@@ -1,6 +1,6 @@
 import Tree from "../../images/tree.svg"
-import Fun from "../../images/fun.jpeg"
-import Play from "../../images/play.jpeg"
+import Us from "../../images/us.png"
+import Galgal from "../../images/galgal.png"
 import Savings from "../../images/savings.svg"
 import Pay from "../../images/pay.svg"
 import Man from '../../images/purpleMan.png'
@@ -18,7 +18,7 @@ export const homeObjOne = {
     buttonLabel: 'גלו עוד',
     to:'discover',
     imgStart: false,
-    img: Fun,
+    img: Us,
     alt: 'Car' ,
     dark: true,
     primary: true,
@@ -74,7 +74,7 @@ export const homeObjFour = {
     to:'services',
     buttonLabel: 'לסדנאות שלנו',
     imgStart: true,
-    img: Play,
+    img: Galgal,
     alt: 'giggy' ,
     dark: false,
     primary: false,
@@ -92,7 +92,7 @@ export const homeObjFive = {
     description: "DollaCard provides unlimited cash back with no category restrictions at a higher rate than many other credit cards in the U.S. market. Furthermore, there are no annual, maintenance, or foreign transaction fees. The Dolla app also allows you to track your DollaCard spending alongside deposits in a Dolla Checking account.",
     buttonLabel: 'Sign up',
     imgStart: false,
-    img: Fun,
+    img: Us,
     alt: 'Car' ,
     dark: true,
     primary: true,

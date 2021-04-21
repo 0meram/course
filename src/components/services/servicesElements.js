@@ -9,15 +9,15 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #dbdbdbba;
+background: #e1e2e1;
 margin: 0 auto;
 
 @media screen and (max-width: 768px){
-    height: 1000px;
+    height: 1600px;
 }
 
 @media screen and (max-width: 480px){
-    height: 1000px;
+    height: 1600px;
 }
 `
 

@@ -4,14 +4,16 @@ import { FaPeopleCarry } from "react-icons/fa";
 
 
 export const ServicesContainer = styled.div`
-height: 300px;
+height: 380px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #ffc400;
+
 color: #fff;
 margin: 0;
+
 
 @media screen and (max-width: 1000px){
   height: 600px;
@@ -35,6 +37,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 align-items: flex-start;
 grid-gap: 90px;
 padding: 0 0px;
+margin-top: 35px;
+margin-bottom: 35px;
+
 
 @media screen and (max-width: 1000px){
     grid-template-columns: 1fr 1fr;

@@ -62,7 +62,7 @@ function Review() {
         }
         return index
       })
-    }, 4000)
+    }, 4500)
     return () => {
       clearInterval(slider)
     }
