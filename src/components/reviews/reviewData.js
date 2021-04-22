@@ -11,46 +11,46 @@ const people = [
     {
       id: 1,
       image:Yair,
-      name: 'maria ferguson',
-      title: 'office manager',
+      name: 'יאיר',
+      title: 'בוגר העמותה',
       quote:
-        'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+        '."הסדנא מאוד מפקסת מכל מפגש מפיקים המון סדנא חובה לכולם"'
     },
     {
       id: 2,
       image:
       Yaeli,
-      name: 'john doe',
-      title: 'regular guy',
+      name: 'יעלי',
+      title: 'בוגרת העמותה',
       quote:
-        'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+        '."הייתה לי חוויה מאוד משמעותית. ממקום של משוחררת שלא יודעת לאן היא הולכת אל מקום מבין יותר, ממוקד יותר ומצליח יותר"',
     },
     {
       id: 3,
       image:
       Tomer,
-      name: 'peter smith',
-      title: 'product designer',
+      name: 'תומר',
+      title: 'בוגר העמותה',
       quote:
-        'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+        '."איפה אני היום עם זה? הידע והכלים שרכשתי מלווים אותי בהמון סיטואציות יום-יומיות, שאיתן אני מרגיש שאני מתמודד בצורה אחראית ומושכלת"',
     },
     {
       id: 4,
       image:
       Ido,
-      name: 'susan andersen',
-      title: 'the boss',
+      name: 'עידו ',
+      title: 'בוגר העמותה',
       quote:
-        'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+        '."אחד הכלים המשמעותיים ביותר שקיבלתי מהסדנא זה שינוי הגישה בכל ההתנהלות הכלכלית שלי. קיבלתי כלים אשר שינו לי את ההסתכלות על בניית תקציב וניהול חודשי מתוך חשיבה קדימה"',
     },
     {
       id: 4,
       image:
       Yinon,
-      name: 'susan andersen',
-      title: 'the boss',
+      name: 'ינון',
+      title: 'בוגר העמותה',
       quote:
-        'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+        '."הסדנא התמקדה בכל מיני נושאים שלא לומדים בשום במקום אחר"',
     },
   ];
   

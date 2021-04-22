@@ -75,7 +75,7 @@ const toggleHome = () => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                            >הקורס הקרוב</NavLinks>
+                            >הסדנאות שלנו</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="reviews"

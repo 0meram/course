@@ -20,7 +20,7 @@ ServicesP,
 const OurValues = () => {
     return (
         <>
-        <ServicesContainer >
+        <ServicesContainer id="values">
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon ><GiMountainRoad /></ServicesIcon>

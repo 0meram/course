@@ -42,8 +42,6 @@ export default function SignIn() {
             <FormWrap >
             <FormH1>שלח\י אלינו פרטים ונחזור אליך בהקדם</FormH1>
                 {/* <Icon to="/">Dolla</Icon> */}
-         
-
                     <Form  onSubmit={sendEmail}>
                         
                         <NamePhoneCon>
@@ -59,7 +57,6 @@ export default function SignIn() {
                         <FormButton type='submit'>שלח</FormButton>
                         {/* <BackButton to='/'>Get back home</BackButton> */}
                         </Form>
-             
             </FormWrap>
         </Container>
             

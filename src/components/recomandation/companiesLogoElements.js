@@ -4,7 +4,7 @@ import styled  from 'styled-components'
 
 export const ServicesContainer = styled.div`
 height: auto;
-margin-bottom: 100px;
+/* margin-bottom: 100px; */
 
 `
 

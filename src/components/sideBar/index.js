@@ -23,8 +23,8 @@ const SideBar = ({isOpen, toggle}) => {
             <SideBarWrapper >
             <SideBarMenu>
                 <SideBarLink to="about" onClick={toggle}>קצת עלינו</SideBarLink>
-                <SideBarLink to="discover" onClick={toggle}> מה אנחנו עושים</SideBarLink>
-                <SideBarLink to="services" onClick={toggle}> הקורסים שלנו</SideBarLink>
+                <SideBarLink to="discover" onClick={toggle}> על העמותה </SideBarLink>
+                <SideBarLink to="services" onClick={toggle}> הסדנאות שלנו</SideBarLink>
                 <SideBarLink to="reviews" onClick={toggle}> תגובות חברים</SideBarLink>
             </SideBarMenu>
             

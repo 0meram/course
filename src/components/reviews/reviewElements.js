@@ -90,13 +90,15 @@ export const ReviewImg = styled.img`
 export const ReviewH4 = styled.h4`
   color: black;
   margin-bottom: 0.25rem;
-  font-size: 30px;
+  font-size: 32px;
  
 `;
 
 export const PersonTitle = styled.p`
   text-align: center;
   color: gray;
+  font-size: 20px;
+  font-weight: bold;
 `;
 
 export const PersonText = styled.p`
@@ -104,7 +106,7 @@ export const PersonText = styled.p`
   margin: 0 auto;
   margin-top: 2rem;
   line-height: 2;
-  font-size: 18px;
+  font-size: 20px;
   color: gray;
   @media screen and (max-width: 768px){
   height:900px}
