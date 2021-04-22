@@ -40,10 +40,12 @@ export default function SignIn() {
         <>
         <Container id="signup">
             <FormWrap >
+            <FormH1>שלח\י אלינו פרטים ונחזור אליך בהקדם</FormH1>
                 {/* <Icon to="/">Dolla</Icon> */}
-                <FormContent>
-                <FormH1>שלח\י אלינו פרטים ונחזור אליך בהקדם</FormH1>
+         
+
                     <Form  onSubmit={sendEmail}>
+                        
                         <NamePhoneCon>
                         {/* <FormLabel for="fname">שם</FormLabel> */}
                         <FormPhoneInput type="tel" required name="phone" placeholder="מספר טלפון" pattern="[0-9]{3}[0-9]{4}[0-9]{3}"></FormPhoneInput>
@@ -57,7 +59,7 @@ export default function SignIn() {
                         <FormButton type='submit'>שלח</FormButton>
                         {/* <BackButton to='/'>Get back home</BackButton> */}
                         </Form>
-                </FormContent>
+             
             </FormWrap>
         </Container>
             

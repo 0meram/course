@@ -11,6 +11,7 @@ padding: 0 30px;
 height: 800px;
 position: relative;
 z-index: 1;
+
 :before {
 content: '';
 position:absolute;

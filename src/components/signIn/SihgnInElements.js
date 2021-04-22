@@ -4,11 +4,12 @@ import {Link} from 'react-router-dom'
 
 export const Container = styled.div`
 
-background-color: #e1e2e1;
-overflow: hidden;
-@media screen and (max-width: 400px){
-    height: 650px;
-    margin:0;
+background-color: #ffc400;
+height: fit-content;
+max-height: 1900px;
+@media screen and (max-width: 480px){
+height: fit-content;
+margin:0 auto;
 }
 `;
 
@@ -17,10 +18,9 @@ height: fit-content;
 display: flex;
 flex-direction: column;
 justify-content: center;
-background-color: #e1e2e1;
 text-align: center;
 @media screen and (max-width: 480px){
-    height: 400px;
+    height: fit-content;
     padding: 24px;
 }
 `;  
@@ -58,18 +58,18 @@ margin:0 ;
 export const Form = styled.form`
 background: #e1e2e1;
 max-width: 600px;
-height: 350px;
+height: fit-content;
 width: fit-content;
-z-index: 1;
+z-index: 3;
 display: grid;
 margin: 0 auto;
 padding: 30px 28px;
 border-radius: 8px;
-/* box-shadow: 0 4px 30px #00000030; */
+box-shadow: 0 4px 30px #00000030;
 margin-bottom: 100px;
 @media screen and (max-width: 480px){
     align-items: center;
-    margin: 0;
+    margin: 0 auto;
 }
 `;
 
@@ -77,13 +77,12 @@ margin-bottom: 100px;
 export const FormH1 = styled.h1`
 margin-bottom: 10px;
 margin-top: 50px;
-color: #ffc400;
+color: #494949;
 font-size: 32px;
 font-weight: 500;
 text-align: center;
 @media screen and (max-width: 480px){
     align-items: center;
-    margin-top: 100px;
 }
 `;
 
