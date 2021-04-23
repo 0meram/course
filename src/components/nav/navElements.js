@@ -4,8 +4,8 @@ import { Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
 background:  ${({scrollNav}) => (scrollNav ? 'white' : ' transparent')};
-height: 81px;
-margin-top: -80px;
+height: 95px;
+margin-top: -95px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -43,10 +43,10 @@ cursor: pointer;
 display: flex;
 align-items: center;
 margin-left: 24px;
-margin-top: 10px;
+margin-top: 6px;
 /* border-radius: 50%; */
-width: 105px;
-height: 80px;
+width: 120px;
+height: 88px;
 
 &:hover{
     transform: scale(1.09);
@@ -78,7 +78,7 @@ list-style: none;
 text-align: center;
 margin-right: -22px;
 margin-bottom: 0;
-
+font-size: 22px;
 @media screen and (max-width: 768px){
 display: none;
 }
@@ -96,7 +96,7 @@ color:  ${({scrollNav}) => (scrollNav ? '#000' : ' #ffc400')};
 display:flex;
 align-items:center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 35px;
 height: 100%;
 cursor: pointer;
 
@@ -110,6 +110,9 @@ border-bottom: 3px solid #000;
 /* transform: scale(1.2); */
 font-weight: bold;
 color: black;
+}
+@media screen and (max-width: 768px){
+padding: 0px 10px;
 }
 `;
 

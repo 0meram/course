@@ -97,7 +97,7 @@ font-size: 32px;
 `;
 
 export const SubTitle = styled.p`
-margin-bottom: 35px;
+margin-bottom: 20px;
 font-size: 18px;
 line-height: 32px;
 color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
@@ -107,6 +107,7 @@ color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 export const BtnWrap = styled.div`
 display: flex;
 justify-content: flex-end;
+margin-top: 45px;
 
 `;
 

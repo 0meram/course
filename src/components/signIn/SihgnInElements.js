@@ -217,3 +217,31 @@ height: 100px;
     
 }
 `;
+
+export const FormSelect = styled.select`
+padding: 15px 20px;
+margin-bottom: 25px;
+border: none;
+border-radius: 4px;
+
+text-align-last:right;
+direction: rtl;
+
+width: 500px;
+height: 50px;
+
+&:hover{
+    box-shadow: 0 2px 6px #00000030;
+}
+@media screen and (max-width: 480px){
+    max-width: 250px;
+    
+}
+`;
+export const FormSelectOption = styled.option`
+text-align: center;
+@media screen and (max-width: 480px){
+    max-width: 250px;
+    
+}
+`;

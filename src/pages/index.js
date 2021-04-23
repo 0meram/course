@@ -31,7 +31,7 @@ const toggleSideBar = () =>{
             <OurValues />
             <Services />
             <Review />
-            <Recomandation />
+            {/* <Recomandation /> */}
             <Companies/>
             <SignIn />
             <Footer />

@@ -8,7 +8,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
-height: 800px;
+height: 700px;
 position: relative;
 z-index: 1;
 
@@ -120,7 +120,27 @@ export const HeroP = styled.p`
 color: white;
 font-size: 44px;
 text-align: center;
-max-width: 600px;
+max-width: 500px;
+margin:0;
+
+@media screen and (max-width: 768px){
+font-size: 34px;
+    }
+
+@media screen and (max-width: 480px){
+font-size: 18px;
+}
+
+`;
+export const HeroTag = styled.p`
+
+color: white;
+font-size: 28px;
+text-align: center;
+max-width: 800px;
+word-spacing: 15px;
+letter-spacing: 12px;
+margin:0;
 
 @media screen and (max-width: 768px){
 font-size: 34px;

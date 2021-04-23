@@ -73,7 +73,7 @@ function Review() {
     <ReviewSection>
       <ReviewTitle>
         <ReviewH2>
-          החברה שלנו מגיבים
+          החברה שלנו משתפים
         </ReviewH2>
       </ReviewTitle>
       <ReviewSectionCenter>

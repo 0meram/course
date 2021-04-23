@@ -30,7 +30,9 @@ const Info = ({
     dark,
     dark2,
     primary,
-    to
+    to,
+    p,
+    p2,
 }) => {
     return (
         <>
@@ -42,6 +44,8 @@ const Info = ({
                         <TopLine>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headline}</Heading>
                         <SubTitle darkText={darkText}>{description}</SubTitle>
+                        <SubTitle darkText={darkText}>{p}</SubTitle>
+                        <SubTitle darkText={darkText}>{p2}</SubTitle>
                         <BtnWrap>
                             <Button to={to}
                             smooth={true}

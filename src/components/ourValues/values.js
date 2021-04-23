@@ -25,7 +25,7 @@ const OurValues = () => {
                 <ServicesCard>
                     <ServicesIcon ><GiMountainRoad /></ServicesIcon>
                     <ServicesH2>תהליך</ServicesH2>
-                    <ServicesP>אנחנו מאמינים בתהליך איכותי וממושך ולא חוויה חד פעמית קצרה. התהליך הינו מרכיב קריטי בתחושת המסוגלות ובמדד ההצלחה בתוך הסדנא ולאחריה</ServicesP>
+                    <ServicesP>התהליך הינו מרכיב משמעותי בתחושת המסוגלות ובמדד ההצלחה בתוך הסדנא ולאחריה</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon><FaPeopleCarry /></ServicesIcon>
@@ -40,7 +40,7 @@ const OurValues = () => {
                 <ServicesCard>
                     <ServicesIcon><GiSupersonicArrow /></ServicesIcon>
                     <ServicesH2>מקצועיות</ServicesH2>
-                    <ServicesP>אנו משקיעים את מירב מאמצינו לתת תוכן מקצועי, איכותי ומדויק לקהילה שלנו</ServicesP>
+                    <ServicesP>תוכן מקצועי הינו עמוד השדרה שלנו תוך מתן דגש על איכות ודיוק עבור קהל היעד</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
