@@ -128,9 +128,12 @@ border-radius: 8px;
     width: 80%;
 }
 @media screen and (max-width: 480px){
-    width: 90%;
-    margin-top: 42px;
-   
+    width: 50%;
+ /* margin: 0 auto; */
+ /* align-items: center;
+ justify-content: center; */
+ display: flex;
+ margin: 0 auto;
 }
 
 

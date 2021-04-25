@@ -40,9 +40,7 @@ const toggleHome = () => {
             <Nav scrollNav={scrollNav}>
                 <NavContainer>
                 <NavBtn>
-                        <NavBtnLink to="signup">
-                         צור קשר
-                        </NavBtnLink>
+                        <NavBtnLink to="signup">צור קשר</NavBtnLink>
                     </NavBtn>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
@@ -66,7 +64,7 @@ const toggleHome = () => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                            >מה עושים</NavLinks>
+                            >קצת על העמותה</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services"
@@ -84,17 +82,8 @@ const toggleHome = () => {
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                            >תגובות חברים</NavLinks>
+                            >החברה שלנו משתפים</NavLinks>
                         </NavItem>
-                        {/* <NavItem>
-                            <NavLinks to="sign"
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}
-                            >Sign up</NavLinks>
-                        </NavItem> */}
                     </NavMenu>
                     <LogoScroll>
                     <NavLogo to="/" onClick={toggleHome} src={Logo} alt="logo" /></LogoScroll>

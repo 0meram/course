@@ -112,23 +112,27 @@ font-size: 70px;
     }
 
 @media screen and (max-width: 480px){
-font-size: 42px;
+font-size: 52px;
 }
 `;
 export const HeroP = styled.p`
 
 color: white;
-font-size: 44px;
+font-size: 48px;
 text-align: center;
-max-width: 500px;
+max-width: 520px;
 margin:0;
+text-shadow:  0 8px 10px black;
+;
 
 @media screen and (max-width: 768px){
 font-size: 34px;
     }
 
 @media screen and (max-width: 480px){
-font-size: 18px;
+font-size: 30px;
+max-width: 280px;
+
 }
 
 `;
@@ -141,13 +145,19 @@ max-width: 800px;
 word-spacing: 15px;
 letter-spacing: 12px;
 margin:0;
+text-shadow:  0 8px 10px black;
+
 
 @media screen and (max-width: 768px){
 font-size: 34px;
     }
 
 @media screen and (max-width: 480px){
-font-size: 18px;
+font-size: 19px;
+word-spacing: 0px;
+letter-spacing: 5px;
+
+
 }
 
 `;

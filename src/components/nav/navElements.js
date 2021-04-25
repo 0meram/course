@@ -78,7 +78,7 @@ list-style: none;
 text-align: center;
 margin-right: -22px;
 margin-bottom: 0;
-font-size: 22px;
+font-size: 20px;
 @media screen and (max-width: 768px){
 display: none;
 }
@@ -96,7 +96,7 @@ color:  ${({scrollNav}) => (scrollNav ? '#000' : ' #ffc400')};
 display:flex;
 align-items:center;
 text-decoration: none;
-padding: 0 35px;
+padding: 0 30px;
 height: 100%;
 cursor: pointer;
 

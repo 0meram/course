@@ -23,10 +23,10 @@ const onHover = () => {
                 </HeroBg>
                 <HeroContent>
                        {/* <HeroImg src={Wheels} alt="hero"></HeroImg> */}
-                    <HeroH1>גלגלי עזר</HeroH1>
+                    {/* <HeroH1>גלגלי עזר</HeroH1> */}
                     {/* <HeroImg src={Logo} alt="hero"></HeroImg> */}
-                    <HeroP>דור העתיד זה אתם ואנחנו <span className="bold">כאן בשבילכם</span></HeroP>
-                    <HeroTag>דברים קטנים אנשים גדולים</HeroTag>
+                    <HeroP>דור העתיד זה אתם <span className="bold">ואנחנו כאן בשבילכם</span></HeroP>
+                    <HeroTag>דברים קטנים - אנשים גדולים</HeroTag>
                     <HeroBtnWrapper>
                         <Button
                          to='discover' 

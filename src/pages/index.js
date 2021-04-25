@@ -12,7 +12,7 @@ import Review from '../components/reviews/review'
 import Recomandation from '../components/recomandation/recomandation'
 import OurValues from '../components/ourValues/values'
 import Companies from "../components/recomandation/companiesLogo"
-import Course from "../components/courses/course"
+import Gallery from "../components/gallery/gallery"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -27,12 +27,12 @@ const toggleSideBar = () =>{
             <Hero />
             <Info {...homeObjFour}/>
             <Info {...homeObjOne}/>
-            {/* <Course /> */}
             <OurValues />
             <Services />
             <Review />
             {/* <Recomandation /> */}
             <Companies/>
+            <Gallery />
             <SignIn />
             <Footer />
         </>

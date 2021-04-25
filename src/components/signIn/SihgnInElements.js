@@ -88,8 +88,10 @@ text-align: center;
 
 export const FormLabel = styled.label`
 margin-bottom: 5px;
-font-size: 15px;
+font-size: 18px;
 color: #ffc400;
+text-shadow: 0 0px 2px #000000;
+letter-spacing: 3px;
 `;
 
 

@@ -14,8 +14,8 @@ export const homeObjOne = {
     lightTitle:false,
     topLine: '',
     headline: 'קצת עלינו',
-    description: "אילון אטיאס ואיתי ברלין, מייסדי עמותת גלגלי עזר. יזמים צעירים בתחום החברתי בישראל  המגיעים מתחום ההדרכה בצה'ל בתור מפקדים קרביים",
-    p: "אנו רואים את חשיבות גדולה להשקיע את מירב מאמצינו בדור הצומח מתוך ההבנה שהדור הצעיר יוביל את המדינה בעתיד הקרוב",
+    description: "אילון אטיאס ואיתי ברלין, מייסדי עמותת גלגלי עזר. יזמים צעירים בתחום החברתי בישראל  המגיעים מתחום ההדרכה בצה''ל בתור כמפקדים קרביים",
+    p: "אנו רואים חשיבות גדולה להשקיע את מירב מאמצינו בדור הצומח מתוך הבנה שהדור הצעיר יוביל את המדינה בעתיד הקרוב",
     buttonLabel: ' גלו עוד',
     to:'values',
     imgStart: false,
@@ -24,44 +24,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: true
-}
-
-
-export const homeObjTwo = {
-    id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: true,
-    topLine: 'על העמותה',
-    headline: 'מה עושים אצלנו בעמותה',
-    description: " המטרה שלנו-  לסייע ולהכווין את דור העתיד בצמתים מרכזיים בחייו תוך מתן דגש על תוכן מקצועי וחוייתי בתוך תהליך קבוצתי איכותי וממוקד. עמותת גלגלי עזר חרטה על דגלה לקדם ולהשפיע על הנוער בחברה הישראלית במגוון תחומים ושלבים בחייו.",
-    buttonLabel: 'Learn More',
-    to:'services',
-    imgStart: true,
-    img: Savings,
-    alt: 'giggy' ,
-    dark: false,
-    primary: false,
-    darkText: true
-}
-
-
-export const homeObjThree = {
-    id: 'sign',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Join our Team',
-    headline: 'Creating an account is extremeley easy',
-    description: "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Sign up',
-    imgStart: false,
-    img: Pay,
-    alt: 'Car' ,
-    dark: true,
-    primary: true,
-    darkText: false
-}
+};
 
 
 export const homeObjFour = {
@@ -69,10 +32,10 @@ export const homeObjFour = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: ' העמותה שלנו',
-    headline: 'גלגלי עזר',
-    description:  "עמותת גלגלי עזר חרטה על דגלה לקדם ולהשפיע על הנוער בחברה הישראלית במגוון תחומים ושלבים בחייו.",
-    p:"המטרה שלנו-  לסייע ולהכווין את דור העתיד בצמתים מרכזיים בחייו תוך מתן דגש על תוכן מקצועי וחוייתי בתוך תהליך קבוצתי איכותי וממוקד",
+    topLine: '',
+    headline: 'קצת על העמותה',
+    description:  "עמותת גלגלי עזר מקדמת ומשפיעה לקדם ולהשפיע על הנוער בחברה הישראלית במגוון תחומים ושלבים בחייו",
+    p:"המטרה שלנו-  לסייע ולהכווין את דור העתיד בצמתים מרכזיים בחייו תוך מתן דגש על תוכן מקצועי וחוייתי בתוך תהליך קבוצתי איכותי וממוקד. העמותה פועלת בקרב שתי קבוצות, האחת חיילים משוחררים והשניה תלמידי כיתה יב",
     p2:"אנו מאמינים בתהליך הנבנה בצעדים קטנים, דברים קטנים-אנשים גדולים",
     to:'about',
     buttonLabel: '  ? מי אנחנו  ',
@@ -81,23 +44,5 @@ export const homeObjFour = {
     alt: 'giggy' ,
     dark: false,
     primary: false,
-    darkText: false
-}
-
-
-export const homeObjFive = {
-    id: 'sign',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Upgrade your money.',
-    headline: 'More money in your pocket',
-    description: "DollaCard provides unlimited cash back with no category restrictions at a higher rate than many other credit cards in the U.S. market. Furthermore, there are no annual, maintenance, or foreign transaction fees. The Dolla app also allows you to track your DollaCard spending alongside deposits in a Dolla Checking account.",
-    buttonLabel: 'Sign up',
-    imgStart: false,
-    img: Us,
-    alt: 'Car' ,
-    dark: true,
-    primary: true,
     darkText: false
 }
