@@ -8,13 +8,13 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 overflow: hidden;
-background: transparent;
 height: fit-content;
-border-radius: 4px;
-margin: 0 130px ;
+margin:  0px ;
+width: 100%;
+background-color: #494949;
 
 @media screen and (max-width: 768px){
-    margin: 0 40px ;
+    margin: 0 0px ;
     }
 
 @media screen and (max-width: 480px){

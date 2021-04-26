@@ -46,25 +46,14 @@ const toggleHome = () => {
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
-                            <NavLinks 
-                            to="about"
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                        offset={-80}
-                            >
-                            קצת עלינו</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="discover"
+                    <NavItem>
+                            <NavLinks to="reviews"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                            >קצת על העמותה</NavLinks>
+                            >החברה שלנו משתפים</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services"
@@ -75,14 +64,26 @@ const toggleHome = () => {
                                     offset={-80}
                             >הסדנאות שלנו</NavLinks>
                         </NavItem>
+            
                         <NavItem>
-                            <NavLinks to="reviews"
+                        <NavLinks 
+                                    to="about"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
                                     offset={-80}
-                            >החברה שלנו משתפים</NavLinks>
+                                    >
+                                    קצת עלינו</NavLinks>
+                                    </NavItem>
+                        <NavItem>
+                            <NavLinks to="discover"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}
+                            >קצת על העמותה</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <LogoScroll>

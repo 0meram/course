@@ -42,15 +42,15 @@ export default function SignIn() {
         <>
         <Container id="signup">
             <FormWrap >
-            <FormH1>דברים קטנים - אנשים גדולים</FormH1>
+            <FormH1>דור העתיד זה אתם ואנחנו כאן בשבילכם</FormH1>
                 {/* <Icon to="/">Dolla</Icon> */}
                     <Form  onSubmit={sendEmail}>
                         <FormLabel for="phone">אני מעוניין לקבל פרטים על</FormLabel>
                         <FormSelect name="course" id="course">
                         <FormSelectOption value="עפים על החיים">סדנאת עפים על החיים</FormSelectOption>
                         <FormSelectOption value="כישורי חיים">סדנאת כישורי חיים </FormSelectOption>
-                        <FormSelectOption value="עניין אחר ">בנושא אחר </FormSelectOption>
                         <FormSelectOption value="תרומה  ">תרומה </FormSelectOption>
+                        <FormSelectOption value="עניין אחר ">בנושא אחר </FormSelectOption>
                         </FormSelect>
                         <NamePhoneCon>
                         {/* <FormLabel for="fname">שם</FormLabel> */}

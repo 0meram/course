@@ -5,9 +5,16 @@ import Talk from '../../images/talking.jpeg'
 import Young from '../../images/young.jpg'
 import Play from '../../images/play.jpeg'
 
+import Note from '../../images/note.jpeg'
+import Write from '../../images/write.jpeg'
+import Paint from '../../images/paint.jpeg'
+import CarFix from '../../images/car-fix.jpeg'
+import Break from '../../images/break.jpeg'
+import Build from '../../images/build.jpeg'
 
 
-const GalleryData = [
+
+export const Gallery = [
 
     {
         img: Grey,
@@ -17,10 +24,10 @@ const GalleryData = [
         img: Talk,
         cols: 1.2,
     },
-    {
-        img: Young,
-        cols: 3,
-    },
+    // {
+    //     img: Note,
+    //     cols: 3,
+    // },
 
     {
         img: Leason,
@@ -30,6 +37,31 @@ const GalleryData = [
         img: Play,
         cols: 1.6,
     },
-]
+];
 
-export default GalleryData
+export const GalleryData2 = [
+
+    {
+        img: Build,
+        cols: 1.8,
+    },
+    {
+        img: Write,
+        cols: 1.2,
+    },
+    {
+        img: Paint,
+        cols: 3,
+    },
+
+    {
+        img: CarFix,
+        cols: 1.4,
+    },
+    {
+        img: Break,
+        cols: 1.6,
+    },
+];
+
+

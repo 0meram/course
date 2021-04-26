@@ -9,7 +9,7 @@ padding: 0px;
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 transition: all 0.7s ease-in-out;
 overflow: hidden;
-height: 630px;
+height: 650px;
 }
 .show-more:hover  {
     /* transform: scale(1.04); */
@@ -25,7 +25,8 @@ height: 630px;
 
 .show-more p{
     overflow: hidden;
-    height: 70px;
+    height: 95px;
+    padding: 20px;
 
 }
 
@@ -60,7 +61,7 @@ height: 630px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
     overflow: hidden;
-    height: 630px;
+    height: 650px;
 }
     .show-more1:hover {
         /* transform: scale(1.04); */
@@ -69,8 +70,10 @@ height: 630px;
     
     .show-more1 p{
         overflow: hidden;
-        height: 70px;
-    }
+        height: 95px;  
+        padding: 20px;
+
+      }
     
     
     .show-less1{

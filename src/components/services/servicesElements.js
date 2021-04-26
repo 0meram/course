@@ -1,4 +1,6 @@
 import styled  from 'styled-components'
+import {IoIosArrowDown, IoIosArrowUp} from 'react-icons/io';
+
 
 
 export const ServicesContainer = styled.div`
@@ -106,5 +108,33 @@ margin-top:55px ;
 export const ServicesP = styled.p`
 font-size: 18px;
 text-align:center ;
-padding: 20px
-`
+padding: 20px;
+line-height: 40px;
+word-spacing: 3px;
+`;
+
+export const MoreDetails = styled.div`
+font-size: 12px;
+height: 20px;
+text-align:center ;
+padding: 0;
+margin: 0;
+margin-top: 20px;
+`;
+
+
+export const Icon = styled(IoIosArrowDown)`
+font-size: 42px;
+text-align:center ;
+margin: 0;
+color:black
+`;
+
+
+export const IconUp = styled(IoIosArrowUp)`
+font-size: 42px;
+text-align:center ;
+margin: 0;
+color:black
+`;
+

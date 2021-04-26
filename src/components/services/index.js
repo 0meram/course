@@ -4,17 +4,18 @@ import Icon2 from '../../images/young.jpg'
 import {Button} from "../ButtonElements"
 import "./services.css"
 import IconButton from '@material-ui/core/IconButton';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import {
 ServicesContainer,
 ServicesH1,
 ServicesWrapper,
 // ServicesCard,
+MoreDetails,
 ServicesIcon,
 ServicesH2,
 ServicesP,
-
+Icon,
+IconUp,
 } from './servicesElements'
 
 
@@ -51,10 +52,10 @@ const Services = () => {
                     <ServicesIcon src={Icon1} />
                     </div>
                     <ServicesH2>עפים על החיים</ServicesH2>
-                    <ServicesP>סדנת 'עפים על החיים' - סדנא המיועדת עבור משוחררות ומשוחררים משירות צבאי ולאומי. מטרת הסדנא הינה לסייע במעבר מהשירות לאומי/צבאי אל האזרחות.
+                    {showMore ? <ServicesP >סדנא המיועדת עבור משוחררות ומשוחררים משירות צבאי ולאומי</ServicesP> : <ServicesP>סדנת 'עפים על החיים' - סדנא המיועדת עבור משוחררות ומשוחררים משירות צבאי ולאומי. מטרת הסדנא הינה לסייע במעבר מהשירות לאומי/צבאי אל האזרחות.
 הסדנא מקיפה ושוזרת מספר תחומים ונושאים אשר הינם קריטיים לשלב בו הם נמצאים בצורה מקצועית, חוייתית ומדויקת.
 הסדנא מקיפה שלושה תחומים מרכזיים: פיתוח אישי, התנהלות כלכלית, הכוונה תעסוקתית ולימודית.
-בנוסף, המשתתפים מקבלים מפגש 1:1 עם גורמי ההדרכה כדי לדייק ולמצות את התוכן והידע שהועבר אל מול הצרכים הפרטיים והספציפיים שלהם.</ServicesP>
+בנוסף, המשתתפים מקבלים מפגש 1:1 עם גורמי ההדרכה כדי לדייק ולמצות את התוכן והידע שהועבר אל מול הצרכים הפרטיים והספציפיים שלהם.</ServicesP>}
                     <Button
                          to='signup' 
                         //  primary='true'
@@ -67,16 +68,19 @@ const Services = () => {
                          >
                             להרשמה
                         </Button>
-                        <IconButton><ExpandMoreIcon onClick={handleExpandClick}/></IconButton>
+                        <MoreDetails>לפרטים נוספים</MoreDetails>
+                        <IconButton>
+                          {showMore ? <Icon onClick={handleExpandClick}/> : <IconUp onClick={handleExpandClick}/>}
+                          </IconButton>
                 </div>
                 <div className={expand2} onClick={handleExpandClick1}>
                 <div className="inner">
                     <ServicesIcon src={Icon2} />
                     </div>
                     <ServicesH2>כישורי חיים</ServicesH2>
-                    <ServicesP>סדנת 'כישורי חיים' - סדנא המיודעת לנערים ונערות בכיתה יב'.
-מטרת הסדנא הינה לסייע במעבר מהתיכון לקראת שנת הכנה לצבא/שירות צבאי.
-הסדנא מקיפה ושוזרת יחד מספר תחומים ונושאים הקריטיים לשלב בו הינם נמצאים בצורה מקצועית, חוייתית ומדויקת.</ServicesP>
+                    {showMore1 ? <ServicesP>סדנא המיודעת לנערים ונערות בכיתה יב</ServicesP>:<ServicesP>סדנת 'כישורי חיים' - סדנא המיודעת לנערים ונערות בכיתה יב'.
+מטרת הסדנא הינה לסייע במעבר מהתיכון לקראת שנת הכנה לצבא/שירות צבאי.<br/>
+הסדנא מקיפה ושוזרת יחד מספר תחומים ונושאים הקריטיים לשלב בו הינם נמצאים בצורה מקצועית, חוייתית ומדויקת.</ServicesP> }
                     <Button
                          to='signup' 
                         //  primary='false'
@@ -89,7 +93,8 @@ const Services = () => {
                          >
                             להרשמה
                         </Button>
-                        <IconButton><ExpandMoreIcon onClick={handleExpandClick1}/></IconButton>
+                        <MoreDetails>לפרטים נוספים</MoreDetails>
+                        <IconButton>  {showMore1 ? <Icon onClick={handleExpandClick}/> : <IconUp onClick={handleExpandClick}/>}</IconButton>
                 </div>
             </ServicesWrapper>
         </ServicesContainer>
