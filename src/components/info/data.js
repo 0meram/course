@@ -20,11 +20,18 @@ export const homeObjOne = {
     buttonLabel: ' גלו עוד',
     to:'values',
     imgStart: false,
-    img: Eilon,
+    // img: Eilon,
     alt: 'Car' ,
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    me: 'איתי ברלין',
+    img2: Itay,
+    title: "מייסד ומנהל מערך המשוחררים",
+    quote: "again",
+    me2: 'אילון אטיאס',
+    img1: Eilon,
+    title2: "מייסד ומנהל העמותה",
 };
 
 

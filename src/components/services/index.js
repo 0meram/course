@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Icon1 from '../../images/leason.jpeg'
+import Icon1 from '../../images/afim.jpg'
 import Icon2 from '../../images/young.jpg'
 import {Button} from "../ButtonElements"
 import "./services.css"

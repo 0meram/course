@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
+import Itay from "../../images/itay.jpeg"
 import {
 InfoContainer,
 InfoWrapper,
@@ -12,7 +13,13 @@ SubTitle,
 BtnWrap,
 Column2,
 ImgWrap,
-Img
+Img,
+ReviewImg,
+ReviewH4,
+PersonTitle,
+ReviewArticle,
+PersonText,
+ReviewCon,
 } from "./infoElements"
 
 const Info = ({
@@ -33,6 +40,14 @@ const Info = ({
     to,
     p,
     p2,
+    me,
+    img2,
+    title,
+    me2,
+    img1,
+    title2,
+    
+
 }) => {
     return (
         <>
@@ -62,7 +77,19 @@ const Info = ({
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <Img src={img} alt={alt}/>                    </ImgWrap>
+                    {img2 ? <ReviewArticle >
+                        <ReviewCon>
+                            <ReviewImg src={img1} alt={'img'}  />
+                            <ReviewH4>{me2}</ReviewH4>
+                            <PersonTitle >{title2}</PersonTitle>
+                            </ReviewCon>
+                            <ReviewCon>
+                            <ReviewImg src={img2} alt={'img'}  />
+                            <ReviewH4>{me}</ReviewH4>
+                            <PersonTitle >{title}</PersonTitle>
+                        </ReviewCon>
+                    </ReviewArticle>:  <Img src={img} alt={alt}/>}
+                    </ImgWrap>
                     </Column2>
                 </InfoRow>
             </InfoWrapper>

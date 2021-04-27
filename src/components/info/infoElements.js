@@ -37,7 +37,7 @@ text-align: right;
 export const InfoRow = styled.div`
 display: grid;
 grid-auto-columns: minmax(auto, 1fr);
-column-gap:50px;
+column-gap:80px;
 align-items: center;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
@@ -50,7 +50,7 @@ grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`
 
 export const Column1 = styled.div`
 margin-bottom: 15px;
-padding: 50px 70px;
+padding: 40px 50px;
 grid-area: col1;
 
 `;
@@ -62,7 +62,7 @@ grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
-max-width: 640px;
+max-width: 650px;
 padding-top: 0;
 padding-bottom: 60px;
 padding: 0px;
@@ -138,3 +138,55 @@ border-radius: 8px;
 
 
 `;
+
+
+
+export const ReviewArticle = styled.article`
+margin-top: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+column-gap:80px;
+/* flex-direction: column; */
+width: auto;
+height: 400px;
+text-align: center;
+    @media screen and (max-width: 480px){
+flex-direction: column;
+height: 700px;
+margin: 10px;
+ }
+`;
+
+export const ReviewImg = styled.img`
+border-radius: 50%;
+margin-bottom: 1rem;
+width: 180px;
+height: 180px;
+object-fit: cover;
+  /* border: 3px solid  #fce26ef0; */
+  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
+
+@media screen and (max-width: 768px){
+    width: 210px;
+  height: 210px;}
+`;
+
+export const ReviewCon = styled.div`
+margin-bottom: 40px;
+
+ 
+`;
+export const ReviewH4 = styled.h4`
+  color: black;
+  margin-bottom: 0.25rem;
+  font-size: 30px;
+ 
+`;
+
+export const PersonTitle = styled.p`
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+`;
+
