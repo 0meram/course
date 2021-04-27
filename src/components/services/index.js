@@ -94,7 +94,7 @@ const Services = () => {
                             להרשמה
                         </Button>
                         <MoreDetails>לפרטים נוספים</MoreDetails>
-                        <IconButton>  {showMore1 ? <Icon onClick={handleExpandClick}/> : <IconUp onClick={handleExpandClick}/>}</IconButton>
+                        <IconButton>  {showMore1 ? <Icon onClick={handleExpandClick1}/> : <IconUp onClick={handleExpandClick}/>}</IconButton>
                 </div>
             </ServicesWrapper>
         </ServicesContainer>
