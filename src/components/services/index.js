@@ -82,7 +82,6 @@ const Services = () => {
                 </div>
             </ServicesWrapper>
         </ServicesContainer>
-            
         </>
     )
 }

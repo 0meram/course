@@ -3,13 +3,11 @@ import SideBar from "../components/sideBar/index"
 import NavBar from "../components/nav/index"
 import Hero from "../components/hero/index"
 import Info from "../components/info/index"
-import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive} from '../components/info/data'
+import {homeObjOne, homeObjFour} from '../components/info/data'
 import Services from '../components/services'
 import Footer from '../components/footer'
 import SignIn from '../components/signIn'
-import Pricing from '../components/pricing/pricing'
 import Review from '../components/reviews/review'
-import Recomandation from '../components/recomandation/recomandation'
 import OurValues from '../components/ourValues/values'
 import Companies from "../components/recomandation/companiesLogo"
 import Gallery from "../components/gallery/gallery"
@@ -30,7 +28,6 @@ const toggleSideBar = () =>{
             <OurValues />
             <Services />
             <Review />
-            {/* <Recomandation /> */}
             <Companies/>
             <Gallery />
             <SignIn />

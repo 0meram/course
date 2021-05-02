@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import Itay from "../../images/itay.jpeg"
 import {
 InfoContainer,
 InfoWrapper,
@@ -18,7 +17,6 @@ ReviewImg,
 ReviewH4,
 PersonTitle,
 ReviewArticle,
-PersonText,
 ReviewCon,
 } from "./infoElements"
 

@@ -33,14 +33,11 @@ const SideBar = ({isOpen, toggle}) => {
 </SideBarBtnWrap>
 <br />
 <SideBarBtnWrap>
-<LogoScroll to="home"  onClick={toggle}> <NavLogo  src={Logo} alt="logo" /></LogoScroll>
-</SideBarBtnWrap>
-
-
-            </SideBarWrapper>
-            
-        </SideBarContainer>
-    )
+    <LogoScroll to="home"  onClick={toggle}> <NavLogo  src={Logo} alt="logo" /></LogoScroll>
+    </SideBarBtnWrap>
+    </SideBarWrapper>
+</SideBarContainer>
+)
 }
 
 export default SideBar

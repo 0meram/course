@@ -10,8 +10,6 @@ ServicesIcon,
 ServicesH2,
 ServicesP,
 PersonTitle,
-CompaniesContainer,
-CompaniesLogo
 } from './recomandationElements'
 
 const people = [

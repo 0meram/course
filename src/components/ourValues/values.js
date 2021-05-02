@@ -6,9 +6,7 @@ import { SiGumroad } from "react-icons/si";
 import { FaPeopleCarry } from "react-icons/fa";
 
 import {
-    
 ServicesContainer,
-ServicesH1,
 ServicesWrapper,
 ServicesCard,
 ServicesIcon,
@@ -44,7 +42,6 @@ const OurValues = () => {
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
-            
         </>
     )
 }

@@ -4,14 +4,12 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import {GalleryCon} from "./galleryElements";
 import {Gallery , GalleryData2} from "./galleryData"
-import { ContactPhoneTwoTone } from '@material-ui/icons';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   gridList: {
     width: '100%',
     height: 'auto',
     borderRadius: 4,
-    // background: 'black',
     paddingTop: 4,
   },
 }));

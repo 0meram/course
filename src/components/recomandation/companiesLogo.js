@@ -17,9 +17,9 @@ const Companies = () => {
         <>
         <ServicesContainer id='logo' key="key">
             <CompaniesContainer >
-              <CompaniesLogo src={Mifne} alt={"image"}/>
-              <CompaniesLogo src={OrNatan} alt={"image"}/>
-              <CompaniesLogo src={ShellTech} alt={"image"}/>
+            <CompaniesLogo src={OrNatan} alt={"image"}/>
+            <CompaniesLogo src={ShellTech} alt={"image"}/>
+            <CompaniesLogo src={Mifne} alt={"image"}/>
             </CompaniesContainer>
         </ServicesContainer>
             
