@@ -4,9 +4,7 @@ import styled  from 'styled-components'
 
 export const ServicesContainer = styled.div`
 height: auto;
-/* margin-bottom: 100px; */
-
-`
+`;
 
 export const CompaniesContainer = styled.div`
 margin:  0 auto;
@@ -37,8 +35,8 @@ width: 15%;
 margin: 40px 30px;
 
 &:hover{
-    transform: scale(1.03);
-  
+transform: scale(1.03);
+
 }
 @media screen and (max-width: 480px){
 height: auto;

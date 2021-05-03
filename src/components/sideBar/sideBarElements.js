@@ -48,7 +48,7 @@ grid-template-rows: repeat(5, 70px);
 text-align: center;
 
 @media screen and(max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+grid-template-rows: repeat(6, 60px);
 }
 `;
 
@@ -65,19 +65,16 @@ color: white;
 cursor: pointer;
 
 &:hover{
-    color: #ffc400;
-    transition: 0.2s ease-in-out; 
+color: #ffc400;
+transition: 0.2s ease-in-out; 
 }
-
 `;
-
 
 export const SideBarBtnWrap = styled.div`
 display: flex;
 justify-content: center;
 
 `;
-
 
 
 export const SideBarRoute = styled(LinkS)`
@@ -100,16 +97,6 @@ color: #010606;
 `;
 
 export const LogoScroll = styled(LinkS)`
-/* color: #fff;
-justify-self: flex-start;
-cursor: pointer;
-font-size: 1.5rem;
-display: flex;
-align-items: center;
-margin-left: 24px;
-font-weight: bold;
-text-decoration: none;
- */
 margin-bottom: 0px;
 `;
 
@@ -124,9 +111,8 @@ width: 140px;
 height: 120px;
 
 &:hover{
-    transform: scale(1.09);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+transform: scale(1.09);
+transition: all 0.2s ease-in-out;
+cursor: pointer;
 }
-
 `;

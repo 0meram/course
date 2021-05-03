@@ -4,7 +4,6 @@ import {IoIosArrowDown, IoIosArrowUp} from 'react-icons/io';
 
 
 export const ServicesContainer = styled.div`
-/* height: 600px; */
 height: fit-content;
 padding-bottom: 50px;
 display: flex;
@@ -45,33 +44,7 @@ height: fit-content;
 
 `;
 
-// export const ServicesCard = styled.div`
-// background: #fff;
-// display: flex;
-// flex-direction: column;
-// justify-content: flex-start;
-// align-items: center;
-// border-radius: 10px;
-// padding: 30px;
-// box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-// transition: all 0.2s ease-in-out;
-// overflow: hidden;
-// height: 500px;
-
-// &:hover{
-//     transform: scale(1.1);
-//     transition: transform 1.1s ease-in-out;
-//     cursor: pointer;
-//     /* height: 500px; */
-// }
-
-// `
-
 export const ServicesIcon = styled.img`
-/* height: 150px;
-width: 180px;
-margin-bottom: 10px;
-border-radius: 10px; */
 height: 330px;
 width: 100%;
 border-radius: 4px;
@@ -80,7 +53,6 @@ transition: all 1.5s ease;
 transform: scale(1.4);
 border-radius: 4px;
 }
-
 `;
 
 
@@ -90,11 +62,9 @@ font-weight: bold;
 color: #000;
 margin-top: 50px;
 margin-bottom: 20px;
-
 @media screen and (max-width: 480px){
-    font-size: 2rem;
+font-size: 2rem;
 }
-
 `;
 
 export const ServicesH2 = styled.h2`

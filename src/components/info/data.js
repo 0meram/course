@@ -1,10 +1,7 @@
-import Tree from "../../images/tree.svg"
-import Us from "../../images/us.png"
+
 import Galgal from "../../images/galgal.png"
 import Eilon from "../../images/eilon.jpeg"
 import Itay from "../../images/itay.jpeg"
-import Pay from "../../images/pay.svg"
-import Man from '../../images/purpleMan.png'
 
 
 export const homeObjOne = {

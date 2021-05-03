@@ -10,22 +10,21 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #ffc400;
-
 color: #fff;
 margin: 0;
 
 
 @media screen and (max-width: 1000px){
-  height: 600px;
+height: 600px;
 }
 
 @media screen and (max-width: 768px){
-    height: 1100px;
+height: 1100px;
 }
 
 @media screen and (max-width: 480px){
-    height: 1450px;
-    padding: 70px;
+height: 1450px;
+padding: 70px;
 }
 `
 
@@ -42,14 +41,13 @@ margin-bottom: 35px;
 
 
 @media screen and (max-width: 1000px){
-    grid-template-columns: 1fr 1fr;
-   
-}
-@media screen and (max-width: 768px){
-    grid-template-columns: 1fr ;
-    padding: 0 0px;
-}
+grid-template-columns: 1fr 1fr;
+};
 
+@media screen and (max-width: 768px){
+grid-template-columns: 1fr ;
+padding: 0 0px;
+}
 `;
 
 export const ServicesCard = styled.div`
@@ -61,7 +59,6 @@ align-items: center;
 border-radius: 10px;
 max-height: 340px;
 padding: 0px;
-/* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
 transition: all 0.2s ease-in-out;
 
 &:hover{
@@ -69,16 +66,7 @@ transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
-/* @media screen and (max-width: 768px){
-    grid-template-columns: 1fr ;
-    padding: 0 10px;
-}
-@media screen and (max-width: 480px){
-    grid-template-columns: 1fr ;
-    padding: 0 10px;
-} */
-
-`
+`;
 
 export const ServicesIcon = styled.div`
 height: 100px;
@@ -96,7 +84,7 @@ color: #000;
 margin-bottom: 64px;
 
 @media screen and (max-width: 480px){
-    font-size: 2rem;
+font-size: 2rem;
 }
 
 `;

@@ -24,11 +24,6 @@ export const Gallery = [
         img: Talk,
         cols: 1.2,
     },
-    // {
-    //     img: Note,
-    //     cols: 3,
-    // },
-
     {
         img: Leason,
         cols: 1.4,

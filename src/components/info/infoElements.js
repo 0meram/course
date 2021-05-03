@@ -42,7 +42,7 @@ align-items: center;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
 @media screen and (max-width: 768px){
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `' col1 col1' 'col2 col2'`)};
+grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `' col1 col1' 'col2 col2'`)};
 }
 
 `;
@@ -112,7 +112,6 @@ margin-top: 45px;
 `;
 
 export const ImgWrap = styled.div`
-/* max-width: 700px; */
 height: 100%;
 width: 100%;
 margin: 0px
@@ -128,12 +127,9 @@ border-radius: 8px;
     width: 80%;
 }
 @media screen and (max-width: 480px){
-    width: 50%;
- /* margin: 0 auto; */
- /* align-items: center;
- justify-content: center; */
- display: flex;
- margin: 0 auto;
+width: 50%;
+display: flex;
+margin: 0 auto;
 }
 
 
@@ -147,15 +143,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 column-gap:80px;
-/* flex-direction: column; */
 width: auto;
 height: 400px;
 text-align: center;
-    @media screen and (max-width: 480px){
+@media screen and (max-width: 480px){
 flex-direction: column;
 height: 700px;
 margin: 10px;
- }
+}
 `;
 
 export const ReviewImg = styled.img`
@@ -164,24 +159,21 @@ margin-bottom: 1rem;
 width: 180px;
 height: 180px;
 object-fit: cover;
-  /* border: 3px solid  #fce26ef0; */
-  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
+box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
 
 @media screen and (max-width: 768px){
-    width: 210px;
-  height: 210px;}
+width: 210px; 
+height: 210px;}
 `;
 
 export const ReviewCon = styled.div`
 margin-bottom: 40px;
-
- 
 `;
+
 export const ReviewH4 = styled.h4`
   color: black;
   margin-bottom: 0.25rem;
   font-size: 30px;
- 
 `;
 
 export const PersonTitle = styled.p`
