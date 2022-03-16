@@ -18,7 +18,7 @@ const onHover = () => {
                     {/* <BgImage src={Video} alt="grey"/> */}
                 </HeroBg>
                 <HeroContent>
-                    <HeroP>דור העתיד זה אתם <span className="bold">ואנחנו כאן בשבילכם</span></HeroP>
+                    <HeroP>  והאתר בשיפוצים דור העתיד זה אתם <span className="bold">ואנחנו כאן בשבילכם</span></HeroP>
                     <HeroTag>דברים קטנים - אנשים גדולים</HeroTag>
                     <HeroBtnWrapper>
                         <Button
