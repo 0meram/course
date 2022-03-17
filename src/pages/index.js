@@ -6,6 +6,7 @@ import Info from "../components/info/index"
 import {homeObjOne, homeObjFour} from '../components/info/data'
 import Services from '../components/services'
 import Footer from '../components/footer'
+import Constructing from '../components/constructing'
 import SignIn from '../components/signIn'
 import Review from '../components/reviews/review'
 import OurValues from '../components/ourValues/values'
@@ -20,7 +21,7 @@ const toggleSideBar = () =>{
 }
     return (
         <>
-            <SideBar isOpen={isOpen} toggle={toggleSideBar}/>
+            {/* <SideBar isOpen={isOpen} toggle={toggleSideBar}/>
             <NavBar toggle={toggleSideBar} />
             <Hero />
             <Info {...homeObjFour}/>
@@ -31,7 +32,8 @@ const toggleSideBar = () =>{
             <Companies/>
             <Gallery />
             <SignIn />
-            <Footer />
+            <Footer /> */}
+            <Constructing/>
         </>
     )
 }
